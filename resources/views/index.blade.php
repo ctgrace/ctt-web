@@ -481,7 +481,6 @@
                   <ul>
                     <li>Software Architecture & Senior Engineer</li>
                     <li>Front End Developer Asst. Manager AXA Services Indonesia</li>
-                    <li>Xuenn Software Solution</li>
                     <li>SCRUM Certified</li>
                     <li>B.S in Information System</li>
                     <li>10+ years of experience in IT Industry</li>
