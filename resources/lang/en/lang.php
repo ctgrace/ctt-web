@@ -9,7 +9,7 @@
 return [
     'english' => 'English',
     'indonesian' => 'Indonesian',
-    'tle_web_1' => 'Enter the Gate Of',
+    'tle_web_1' => 'Enter The Gate Of',
     'tle_web_2' => 'CRYPTOCURRENCY',
     'dw_wp' => 'Download Whitepaper',
     'buy_ctt' => 'Buy CTT',

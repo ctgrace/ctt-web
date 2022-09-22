@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -387,7 +390,7 @@
                 <tr class="dist-token">
                   <td>Ecosystem (Product)</td>
                   <td>No lockup</td>
-                  <td>Monthly distribution across 60 months</td>
+                  <td>Monthly distribution across 48 months</td>
                   <td>30%</td>
                   <td>1.500.000.000</td>
                 </tr>
@@ -711,7 +714,7 @@
                 <div class="top-card"></div>
                 <div class="body-card">
                   <h5>Advisor</h5>
-                  <h4>Nikolay Akatyev</h4>
+                  <h4>Nikolay "Niko" Akatyev</h4>
                   <ul>
                     <li>8 years cyber security experience, 10 years software development experience</li>
                     <li>CSSLP, CCSK</li>
