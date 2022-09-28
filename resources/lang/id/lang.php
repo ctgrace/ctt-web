@@ -50,5 +50,5 @@ return [
     'token' => 'Tokenomics',
     'p_token' => ' Token Cashtree akan diluncurkan dengan jumlah maksimum sebesar 5,000,000,000 Token Cashtree dengan detail distribusi sebagai berikut:',
     'ctt_team' => 'Tim di belakang proyek CTT adalah tim yang terdiri dari orang-orang yang pintar, bersemangat, berkomitmen tinggi, dan pribadi yang seru. Tim ini adalah tempat bagi mereka yang percaya pada adopsi mata uang kripto dan teknologi blockchain untuk masa depan yang lebih baik.',
-    'active_lang' => 'Indonesia'
+    'active_lang' => 'Ind'
 ];

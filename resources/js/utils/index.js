@@ -18,12 +18,6 @@ $(document).on('click', '.read-less', function(){
 
 $(document).on('click', '.option-lang', function(){
     $('.lang-dropdown').addClass('active')
-    $('.transparant-overlay').addClass('active')
-})
-
-$(document).on('click', '.transparant-overlay', function(){
-    $('.lang-dropdown').removeClass('active')
-    $('.transparant-overlay').removeClass('active')
 })
 
 $(document).on('click', '.burger', function(){
@@ -69,8 +63,4 @@ window.scroll({
     top: 0, 
     left: 0, 
     behavior: 'smooth'
-});
-
-$(function() {
-    AOS.init();
 });

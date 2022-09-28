@@ -6,11 +6,10 @@
     <title>Cashtree CTT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito:wght@300;700;800&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -22,6 +21,7 @@
         <li><a href="#scn-token">Tokenomics</a></li>
         <li><a href="#scn-roadmap">Roadmaps</a></li>
         <li><a href="#scn-team">Team</a></li>
+        <li><a href="#scn-team">F.A.Q</a></li>
       </ul>
       <ul id="sub-menu-lang" class="lang-dropdown mtop-20">
         <li class="{{\Illuminate\Support\Facades\Config::get('app.locale') == 'en' ? 'active' : ''}}">
@@ -80,6 +80,7 @@
           <li><a class="nav" href="#scn-token">Tokenomics</a></li>
           <li><a class="nav" href="#scn-roadmap">Roadmaps</a></li>
           <li><a class="nav" href="#scn-team">Team</a></li>
+          <li><a class="nav" href="#scn-team">F.A.Q</a></li>
         </ul>
         <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">
@@ -207,7 +208,7 @@
         <div class="container-section relative">
           <img class="img-for-mobile" src="{{asset('images/img_section_utility_mobile.svg')}}" alt="">
           <div class="scn-tw-text">
-            <h3 class="fw-600 fp-purple fs-46 mbottom-10">@lang('lang.utility')</h3>
+            <h3 class="fw-700 fp-purple fs-46 mbottom-10">@lang('lang.utility')</h3>
             <div class="ct-p w-45">
               <p>@lang('lang.ctt_utility')</p>
             </div>
@@ -266,7 +267,7 @@
       <section id="scn-token">
         <div class="container-section">
           <div class="scn-tw-text">
-            <h3 class="fw-300 fp-white fs-46 mbottom-15">CTT <span class="fw-600">@lang('lang.token')</span></h3>
+            <h3 class="fw-300 fp-white fs-46 mbottom-15">CTT <span class="fw-700">@lang('lang.token')</span></h3>
             <div class="ct-p">
               <p class="fp-white w-60">@lang('lang.p_token')</p>
             </div>
@@ -425,7 +426,7 @@
       </section>
 
       <section id="scn-roadmap">
-        <h3 class="fw-300 fp-white fs-46 mbottom-15">Dev. <span class="fw-600">Roadmap</span></h3>
+        <h3 class="fw-300 fp-white fs-46 mbottom-15">Dev. <span class="fw-700">Roadmap</span></h3>
         <img class="w-90 d-flex m-auto roadmap_desk" src="{{asset('images/ctt_roadmap.svg')}}" alt="">
         <img class="w-90 d-flex m-auto roadmap_mobile" src="{{asset('images/ctt_roadmap_mobile.svg')}}" alt="">
       </section>
@@ -433,7 +434,7 @@
       <section id="scn-team">
         <div class="container-section">
           <div class="scn-tw-text">
-            <h3 class="fw-600 fp-purple fs-46 mbottom-15">@lang('lang.team')</h3>
+            <h3 class="fw-700 fp-purple fs-46 mbottom-15">@lang('lang.team')</h3>
             <div class="ct-p w-50 mbottom-45">
               <p>@lang('lang.ctt_team')</p>
             </div>
@@ -747,8 +748,8 @@
           </div>
         </div>
         <div class="d-flex align-center">
-          <div class="fp-white fw-600 mright-20 copyright">©2022 - Cashtree. All right reserved</div>
-          {{-- <div class="fp-white fw-600 mright-20 policy">Privacy Policy</div> --}}
+          <div class="fp-white fw-700 mright-20 copyright">©2022 - Cashtree. All right reserved</div>
+          {{-- <div class="fp-white fw-700 mright-20 policy">Privacy Policy</div> --}}
           <ul>
             <li class="mright-20"><a target="blank" href="https://www.instagram.com/cashtreetoken"><img src="{{asset('images/ft_ctt_ig.svg')}}" alt=""></a></li>
             {{-- <li class="mright-20"><a target="blank" href="#"><img src="{{asset('images/ft_ctt_yt.svg')}}" alt=""></a></li> --}}
@@ -776,15 +777,6 @@
         $('.text-description').removeClass('active');
         $('.read-more').removeClass('active');
       }
-
-      // $(function() {
-      //   $('.nav').click(function() {
-      //     var id = $(this).attr('id');
-      //     $('html, body').animate({
-      //       scrollTop: ($('#' + id + '.section').offset().(0,0))
-      //     }, 100000);
-      //   });
-      // })();
     </script>
 
   </body>

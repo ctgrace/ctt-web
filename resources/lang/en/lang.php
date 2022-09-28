@@ -47,5 +47,5 @@ return [
     'token' => 'Tokenomics',
     'p_token' => 'Cashtree Tokens will be released with a maximum amount of 5,000,000,000 Cashtree Token (CTT) with the following distribution:',
     'ctt_team' => 'The team behind CTT is a team of smart, passionate, committed, and fun people. This team is for those who believe in the adoption of cryptocurrency and blockchain technology for a better future.',
-    'active_lang' => 'English'
+    'active_lang' => 'Eng'
 ];
