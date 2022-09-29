@@ -6,6 +6,7 @@
     <title>Cashtree CTT</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -75,12 +76,12 @@
         </div> --}}
         <button class="sale">Coming Soon!</button>
         <ul class="navbar-menu">
-          <li><a class="nav" href="#scn-ctt-is">What is CTT</a></li>
-          <li><a class="nav" href="#scn-utility">Utility</a></li>
-          <li><a class="nav" href="#scn-token">Tokenomics</a></li>
-          <li><a class="nav" href="#scn-roadmap">Roadmaps</a></li>
-          <li><a class="nav" href="#scn-team">Team</a></li>
-          <li><a class="nav" href="#scn-team">F.A.Q</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-ctt-is">What is CTT TEST</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-utility">Utility</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-token">Tokenomics</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-roadmap">Roadmaps</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-team">Team</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="#scn-team">F.A.Q</a></li>
         </ul>
         <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">

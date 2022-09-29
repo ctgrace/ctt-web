@@ -46,7 +46,7 @@
 
     <header class="animate__animated animate__fadeInDown">
       <div class="navbar">
-        <div class="logo-container">
+        <div class="logo-container animate__animated animate__backInLeft">
           <a class="pointer" href="/">
             <img class="mright-15" src="{{asset('images/logo.svg')}}" alt="" width="55">
           </a>
@@ -78,16 +78,16 @@
             </div>
           </div>
         </div> --}}
-        <button class="sale">Coming Soon!</button>
+        <button class="sale animate__animated animate__backInLeft">Coming Soon!</button>
         <ul class="navbar-menu">
-          <li><a class="nav" href="/#scn-ctt-is">What is CTT</a></li>
-          <li><a class="nav" href="/#scn-utility">Utility</a></li>
-          <li><a class="nav" href="/#scn-token">Tokenomics</a></li>
-          <li><a class="nav" href="/#scn-roadmap">Roadmaps</a></li>
-          <li><a class="nav" href="/#scn-team">Team</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-ctt-is">What is CTT</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-utility">Utility</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-token">Tokenomics</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-roadmap">Roadmaps</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-team">Team</a></li>
           {{-- <li><a class="nav" href="/faq">F.A.Q</a></li> --}}
         </ul>
-        <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between">
+        <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between animate__animated animate__backInRight">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">
             <img class="z-2" src="{{asset('images/arrow_lang.svg')}}" alt="" width="10">
             <a href="javascript:void(0)" class="fp-white mright-5 mleft-5 z-2" href="#">@lang('lang.active_lang')</a>

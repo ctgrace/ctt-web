@@ -42,36 +42,36 @@
         </div>
     </section>
 
-    <section id="scn-tw">
+    <section id="scn-tw" data-aos="fade-up" data-aos-duration="800">
       <div class="container-section relative">
         <img class="img-for-mobile" src="{{asset('images/img_section_tw_mobile.svg')}}" alt="">
         <img class="img-for-ipad" src="{{asset('images/img_section_tw_ipad.svg')}}" alt="">
         <div class="scn-tw-text absolute">
-          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-up" data-aos-duration="1000">Cashtree :</h3>
-          <h3 class="fp-purple fs-46" data-aos="fade-up" data-aos-duration="1000">@lang('lang.the_gate')</h3>
-          <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-up" data-aos-duration="1000">@lang('lang.adoption')</h3>
-          <div class="ct-p" data-aos="fade-up" data-aos-duration="1000">
+          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-up" data-aos-duration="800">Cashtree :</h3>
+          <h3 class="fp-purple fs-46" data-aos="fade-up" data-aos-duration="800">@lang('lang.the_gate')</h3>
+          <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-up" data-aos-duration="800">@lang('lang.adoption')</h3>
+          <div class="ct-p" data-aos="fade-up" data-aos-duration="800">
             <p class="fp-black fw-300 w-40">@lang('lang.ct_bv')</p>
           </div>
-          <h6 class="fw-300 fp-purple fs-20 mtop-60" data-aos="fade-right" data-aos-duration="1000">@lang('lang.through')</h6>
-          <h4 class="fp-purple fs-36 w-65" data-aos="fade-right" data-aos-duration="1000">@lang('lang.be_gate')</h4>
+          <h6 class="fw-300 fp-purple fs-20 mtop-60" data-aos="fade-up" data-aos-duration="800">@lang('lang.through')</h6>
+          <h4 class="fp-purple fs-36 w-65" data-aos="fade-up" data-aos-duration="800">@lang('lang.be_gate')</h4>
         </div>
       </div>
     </section>
 
-    <section id="scn-ctt-is">
+    <section id="scn-ctt-is" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
       <div class="container-section">
-        <img class="img-for-mobile" src="{{asset('images/img_section_ctt_mobile.svg')}}" alt="">
-        <img class="img-for-ipad" src="{{asset('images/img_section_ctt_ipad.svg')}}" alt="">
+        <img class="img-for-mobile" src="{{asset('images/img_section_ctt_mobile.svg')}}" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img class="img-for-ipad" src="{{asset('images/img_section_ctt_ipad.svg')}}" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-purple fs-46" data-aos="zoom-in-up" data-aos-duration="1000">@lang('lang.what_is')</h3>
-          <h3 class="fp-purple fs-46 mbottom-15" data-aos="zoom-in-up" data-aos-duration="1000">@lang('lang.ctoken_ctt')</h3>
+          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.what_is')</h3>
+          <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.ctoken_ctt')</h3>
           <div class="ct-p">
-            <p class="fp-black fw-300 w-40" data-aos="zoom-in-up" data-aos-duration="1000">@lang('lang.ctt_new')</p>             
+            <p class="fp-black fw-300 w-40" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.ctt_new')</p>             
           </div>
         </div>
         <div class="container-btn">
-          <a href="{{asset('whitepaper/CTT-Whitepaper.pdf')}}" class="btn-download disabled mright-20" data-aos="zoom-in-down" data-aos-duration="1000">@lang('lang.dw_wp')</a>
+          <a href="{{asset('whitepaper/CTT-Whitepaper.pdf')}}" class="btn-download disabled mright-20"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.dw_wp')</a>
         </div>
       </div>
     </section>
@@ -99,11 +99,11 @@
       </div>
     </section>
 
-    <section id="scn-utility">
+    <section id="scn-utility" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
       <div class="container-section relative">
         <img class="img-for-mobile" src="{{asset('images/img_section_utility_mobile.svg')}}" alt="">
         <img class="img-for-ipad" src="{{asset('images/img_section_utility_ipad.svg')}}" alt="">
-        <div class="scn-tw-text">
+        <div class="scn-tw-text" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
           <h3 class="fw-700 fp-purple fs-46 mbottom-10">@lang('lang.utility')</h3>
           <div class="ct-p w-45">
             <p>@lang('lang.ctt_utility')</p>
@@ -163,8 +163,8 @@
     <section id="scn-token">
       <div class="container-section">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-white fs-46 mbottom-15">CTT <span class="fw-700">@lang('lang.token')</span></h3>
-          <div class="ct-p">
+          <h3 class="fw-300 fp-white fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="1000">CTT <span class="fw-700">@lang('lang.token')</span></h3>
+          <div class="ct-p" data-aos="zoom-in" data-aos-duration="1000">
             <p class="fp-white w-60">@lang('lang.p_token')</p>
           </div>
           <div class="relative circle-diagram">
@@ -323,8 +323,8 @@
 
     <section id="scn-roadmap">
       <h3 class="fw-300 fp-white fs-46 mbottom-15">Dev. <span class="fw-700">Roadmap</span></h3>
-      <img class="w-90 d-flex m-auto roadmap-desk" src="{{asset('images/ctt_roadmap.svg')}}" alt="">
-      <img class="w-90 d-flex m-auto roadmap-mobile" src="{{asset('images/ctt_roadmap_mobile.svg')}}" alt="">
+      <img class="w-90 d-flex m-auto roadmap-desk" src="{{asset('images/ctt_roadmap.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
+      <img class="w-90 d-flex m-auto roadmap-mobile" src="{{asset('images/ctt_roadmap_mobile.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
     </section>
 
     <section id="scn-team">
@@ -339,7 +339,7 @@
             <hr>
           </div>
           <div class="ctt-team mtop-40">
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Founder & CEO</h5>
@@ -356,7 +356,7 @@
                 <img src="{{asset('images/dallen.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>CSO</h5>
@@ -373,7 +373,7 @@
                 <img src="{{asset('images/boni.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>CTO</h5>
@@ -390,7 +390,7 @@
                 <img src="{{asset('images/agust.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Co-Founder & CPO</h5>
@@ -406,7 +406,7 @@
                 <img src="{{asset('images/robin.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Head of Marketing</h5>
@@ -422,7 +422,7 @@
                 <img src="{{asset('images/anynda.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Head Designer</h5>
@@ -440,7 +440,7 @@
                 <img src="{{asset('images/ridho.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Sr. Software Engineer</h5>
@@ -457,7 +457,7 @@
                 <img src="{{asset('images/ridcat.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Product Development</h5>
@@ -480,7 +480,7 @@
             <hr>
           </div>
           <div class="ctt-team mtop-40">
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -495,7 +495,7 @@
                 <img src="{{asset('images/markl.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -509,7 +509,7 @@
                 <img src="{{asset('images/jenny.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -525,7 +525,7 @@
                 <img src="{{asset('images/kim.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -542,7 +542,7 @@
                 <img src="{{asset('images/sangsoo.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -558,7 +558,7 @@
                 <img src="{{asset('images/tammy.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -575,7 +575,7 @@
                 <img src="{{asset('images/gun.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -591,7 +591,7 @@
                 <img src="{{asset('images/jay.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -607,7 +607,7 @@
                 <img src="{{asset('images/balqis.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
@@ -625,7 +625,7 @@
                 <img src="{{asset('images/nikolay.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card">
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
