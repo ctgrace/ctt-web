@@ -3602,8 +3602,9 @@ footer .footer-content ul li img {
     content: "•";
     color: #FF0FD9;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 5px;
+    padding-bottom: 4px;
   }
   .container-fluid .container-section {
     width: 100% !important;

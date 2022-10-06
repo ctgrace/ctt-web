@@ -111,45 +111,45 @@
           <div class="d-flex w-50 mtop-40">
             <div class="col-3 desc-product relative">
               <h5 class="fp-purple fs-26 mbottom-15">@lang('lang.reward')</h3>
-                <div class="container-desc ct-p">
-                  <p id="desc-lang" class="text-description">@lang('lang.p_reward')</p>
-                </div>
-                <button class="read-more pointer" data-id="desc-lang">
-                  <div>@lang('lang.ln_mr')</div>
-                  <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
-                <button class="read-less pointer" data-id="desc-lang">
-                  <div>@lang('lang.ln_ls')</div>
-                  <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
+              <div class="container-desc ct-p">
+                <p id="desc-lang" class="text-description">@lang('lang.p_reward')</p>
+              </div>
+              <button class="read-more pointer" data-id="desc-lang">
+                <div>@lang('lang.ln_mr')</div>
+                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
+              <button class="read-less pointer" data-id="desc-lang">
+                <div>@lang('lang.ln_ls')</div>
+                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
             </div>
             <div class="col-3 desc-product relative">
               <h5 class="fp-purple fs-26 mbottom-15">@lang('lang.staking')</h3>
-                <div class="container-desc ct-p">
-                  <p id="desc-lang2" class="text-description">@lang('lang.p_staking')</p>
-                </div>
-                <button class="read-more pointer" data-id="desc-lang2">
-                  <div>@lang('lang.ln_mr')</div>
-                  <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
-                <button class="read-less pointer" data-id="desc-lang2">
-                  <div>@lang('lang.ln_ls')</div>
-                  <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
+              <div class="container-desc ct-p">
+                <p id="desc-lang2" class="text-description">@lang('lang.p_staking')</p>
+              </div>
+              <button class="read-more pointer" data-id="desc-lang2">
+                <div>@lang('lang.ln_mr')</div>
+                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
+              <button class="read-less pointer" data-id="desc-lang2">
+                <div>@lang('lang.ln_ls')</div>
+                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
             </div>
             <div class="col-3 desc-product relative">
               <h5 class="fp-purple fs-26 mbottom-15">@lang('lang.withdraw')</h3>
-                <div class="container-desc ct-p">
-                  <p id="desc-lang3" class="text-description">@lang('lang.p_withdraw')</p>
-                </div>
-                <button class="read-more pointer" data-id="desc-lang3">
-                  <div>@lang('lang.ln_mr')</div>
-                  <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
-                <button class="read-less pointer" data-id="desc-lang3">
-                  <div>@lang('lang.ln_ls')</div>
-                  <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
-                </button>
+              <div class="container-desc ct-p">
+                <p id="desc-lang3" class="text-description">@lang('lang.p_withdraw')</p>
+              </div>
+              <button class="read-more pointer" data-id="desc-lang3">
+                <div>@lang('lang.ln_mr')</div>
+                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
+              <button class="read-less pointer" data-id="desc-lang3">
+                <div>@lang('lang.ln_ls')</div>
+                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
+              </button>
             </div>
           </div>
           <div class="ct-p w-50 mtop-45 mbottom-45">
@@ -351,6 +351,7 @@
                   <li>(Developed “Dungeon & Fighter”, the highest grossing game of all time)</li>
                   <li>Working in Neople from beginning until exit</li>
                   <li>Investor & Advisor, Pulse9 - Company that develops the first global Virtual Idol "ETERNITY"</li>
+                  <li>22+ years of experience in StartUp / IT</li>
                   <li>Advisor & Investor on various startup companies Industry</li>
                 </ul>
               </div>
@@ -364,9 +365,8 @@
                 <h5>CSO</h5>
                 <h4>Bonifacio</h4>
                 <ul>
-                  <li>Cashtree For Indonesia Head of Business Development</li>
-                  <li>MarComm Asst. Manager - AXA Mandiri GI</li>
-                  <li>Business Development - PEACH (UK AdTech Company)</li>
+                  <li>PT. Cashtree For Indonesia Head of Business Development</li>
+                  <li>MarComm Asst. Manager - AXA Mandiri GI Business Development - PEACH (UK AdTech Company)</li>
                   <li>Master Degree in Design - ITB</li>
                   <li>12+ years of experience in creative industry as Project Manager dealing with global clients</li>
                 </ul>
@@ -430,12 +430,12 @@
                 <h5>Head Designer</h5>
                 <h4>Ridho</h4>
                 <ul>
+                  <li>Graphic Designer with 12+ years of experience in design and creative industries</li>
                   <li>Hakuhodo Indonesia Advertising Agency</li>
                   <li>Electronic Solution</li>
                   <li>Topindo Lucky Sport</li>
-                  <li>Cashtree For Indonesia</li>
+                  <li>PT Cashtree For Indonesia</li>
                   <li>B.A Visual Communication Design</li>
-                  <li>Graphic Designer with 12+ years of experience in design and creative industries</li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -448,11 +448,12 @@
                 <h5>Sr. Software Engineer</h5>
                 <h4>Ridcat Simbolon</h4>
                 <ul>
-                  <li>ARC Indonesia</li>
-                  <li>HDI Indonesia</li>
-                  <li>Cashtree For Indonesia - Senior IT Manager & Backend Programmer</li>
-                  <li>B.S Informatics Engineering</li>
                   <li>10+ years experience in IT industry</li>
+                  <li>B.S Informatics Engineering</li>
+                  <li>PT. ARC Indonesia</li>
+                  <li>PT. HDI Indonesia</li>
+                  <li>PT. Cashtree For Indonesia - Senior IT Manager & Backend Programmer</li>
+                  
                 </ul>
               </div>
               <div class="elips absolute">
@@ -465,11 +466,11 @@
                 <h5>Product Development</h5>
                 <h4>Rifa Herlandy</h4>
                 <ul>
-                  <li>Media Baru Digital</li>
-                  <li>Cashtree For Indonesia - Project Operation Manager</li>
-                  <li>Product Development Manager</li>
-                  <li>B.S Information System</li>
                   <li>10+ years of experience in IT Industry</li>
+                  <li>B.S Information System</li>
+                  <li>PT. Media Baru Digital</li>
+                  <li>PT. Cashtree For Indonesia - Project Operation Manager</li>
+                  <li>Product Development Manager</li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -504,7 +505,7 @@
                 <h4>Jenny</h4>
                 <ul>
                   <li>Co Founder SW DAO</li>
-                  <li>Business Developmentlopment</li>
+                  <li>Business Development</li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -566,11 +567,10 @@
                 <h5>Advisor</h5>
                 <h4>Gun Gun Febrianza</h4>
                 <ul>
-                  <li>Cashtree For Indonesia Head of Business Development</li>
-                  <li>MarComm Asst. Manager - AXA Mandiri GI</li>
-                  <li>Business Development - PEACH (UK AdTech Company)</li>
-                  <li>Master Degree in Design - ITB</li>
-                  <li>12+ years of experience in creative industry as Project Manager dealing with global clients</li>
+                  <li>9 years experience in the IT Development</li>
+                  <li>5 years of experience in blockchain scene Blockchain Architect PT Rantai Oxygen Indonesia</li>
+                  <li>Author of 6 Programming Books</li>
+                  <li>Founder of Discord Blockchain Indonesia (DBI)</li>
                 </ul>
               </div>
               <div class="elips absolute">

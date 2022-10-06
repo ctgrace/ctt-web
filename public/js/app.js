@@ -2112,7 +2112,7 @@ $(document).on('click', '.read-more', function () {
   $(data_id).css('height', 'auto');
   $(data_id).css('transition', 'transform .5s'); // $(this).closest('.read-less').addClass('active');
 
-  $(this).next().addClass('active');
+  $(this).next().slideToggle('active');
   $(this).removeClass('active');
 });
 $(document).on('click', '.read-less', function () {
