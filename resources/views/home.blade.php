@@ -59,24 +59,24 @@
       </div>
     </section>
 
-    <section id="scn-ctt-is" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+    <section id="scn-ctt-is" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
       <div class="container-section">
-        <img class="img-for-mobile" src="{{asset('images/img_section_ctt_mobile.svg')}}" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-        <img class="img-for-ipad" src="{{asset('images/img_section_ctt_ipad.svg')}}" alt="" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <img class="img-for-mobile" src="{{asset('images/img_section_ctt_mobile.svg')}}" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
+        <img class="img-for-ipad" src="{{asset('images/img_section_ctt_ipad.svg')}}" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.what_is')</h3>
-          <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.ctoken_ctt')</h3>
+          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.what_is')</h3>
+          <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctoken_ctt')</h3>
           <div class="ct-p">
-            <p class="fp-black fw-300 w-40" data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.ctt_new')</p>             
+            <p class="fp-black fw-300 w-40" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctt_new')</p>             
           </div>
         </div>
         <div class="container-btn">
-          <a href="{{asset('whitepaper/CTT-Whitepaper.pdf')}}" class="btn-download disabled mright-20"  data-aos="fade-up" data-aos-anchor-placement="center-bottom">@lang('lang.dw_wp')</a>
+          <a href="{{asset('whitepaper/CTT-Whitepaper.pdf')}}" class="btn-download disabled mright-20"  data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.dw_wp')</a>
         </div>
       </div>
     </section>
 
-    <section id="how-to-earn">
+    <section id="how-to-earn" data-aos="fade-down" data-aos-duration="800">
       <div class="centered-content">
         <h3 class="fp-purple fs-36 mbottom-15">@lang('lang.how_to')</h3>
         <h3 class="fw-300 fp-purple fs-46 mbottom-15">@lang('lang.th_ctt_app')</h3>
@@ -99,11 +99,11 @@
       </div>
     </section>
 
-    <section id="scn-utility" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
+    <section id="scn-utility" data-aos="fade-up" data-aos-duration="300">
       <div class="container-section relative">
         <img class="img-for-mobile" src="{{asset('images/img_section_utility_mobile.svg')}}" alt="">
         <img class="img-for-ipad" src="{{asset('images/img_section_utility_ipad.svg')}}" alt="">
-        <div class="scn-tw-text" data-aos="fade-up" data-aos-duration="800" data-aos-anchor-placement="center-bottom">
+        <div class="scn-tw-text" data-aos="fade-up" data-aos-duration="300">
           <h3 class="fw-700 fp-purple fs-46 mbottom-10">@lang('lang.utility')</h3>
           <div class="ct-p w-45">
             <p>@lang('lang.ctt_utility')</p>
@@ -237,8 +237,8 @@
                   <th class="sdt">Subsequent<br>Distribution Terms</th>
                   </tr>
                   <tr style="height: 2rem;">
-                  <th class="bg-purple fw-300">Total Token Circulation</th>
-                  <th class="bg-purple fw-500" colspan="2">5,000,000,000</th>
+                  <th class="bg-purple fs-12">Total Token Circulation</th>
+                  <th class="bg-purple" colspan="2">5,000,000,000</th>
                   </tr>
               </thead>
               <tbody>
@@ -326,6 +326,55 @@
         <h3 class="fw-300 fp-white fs-46 mbottom-15">Dev. <span class="fw-700">Roadmap</span></h3>
         <img class="w-100 d-block m-auto roadmap-desk" src="{{asset('images/ctt_roadmap.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
         <img class="w-100 d-block m-auto roadmap-mobile" src="{{asset('images/ctt_roadmap_mobile.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
+      </div>
+    </section>
+
+    <section id="scn-ecosystem">
+      <div class="container-section relative">
+        <img class="absolute eco-logo" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem.svg')}}" alt="">
+        <img class="img-for-mobile" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem_mobile.svg')}}" alt="">
+        <div class="scn-tw-text">
+          <h3 class="fw-300 fp-purple fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="300">CTT <span class="fw-700">Ecosystem</span></h3>
+        <div>
+        <div class="d-flex mtop-40 eco-list relative" data-aos="fade-up" data-aos-duration="300">
+          <div class="col-3">
+            <img width="200" class="ct" src="{{asset('images/logo_ct.svg')}}" alt="">
+            <div class="container-desc ct-p">
+              <p>Cashtree is a mobile advertising platform based on reward app which aims to become the most influential mobile media reaching mid class Indonesians and has been installed by more than 10 million users by Indonesian people.</p>
+            </div>
+            <a href="http://cashtree.id" target="_blank"><button class="btn-pink">visit</button></a>
+          </div>
+          <div class="col-3">
+            <img width="210" src="{{asset('images/logo_hotdeal.svg')}}" alt="">
+            <div class="container-desc ct-p">
+              <p>Hotdeal are a new platform providing new experience of shopping, present as new e commerce platform utilizing video as main communication to it’s audience. Providing immersive video shopping to enhance all sides of product that can attract audience and boost they desire to shop even more.</p>
+            </div>
+            <a href="http://hotdeal.id" target="_blank"><button class="btn-pink">visit</button></a>
+          </div>
+          <div class="col-3">
+            <img width="130" src="{{asset('images/logo_lasan.svg')}}" alt="">
+            <div class="container-desc ct-p">
+              <p>Lagi Santai is a new place, new home for content creators, storytellers, experts from various fields even for a new comers. This is the place where all participants can exchange information, interact, share works and ideas to be present to the world and inspires souls out there.</p>
+            </div>
+            <a href="http://lagisantai.id" target="_blank"><button class="btn-pink">visit</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="scn-community">
+      <div class="container-section">
+        <div class="com-list mtop-40">
+          <h4 class="fp-purple fs-20 text-center mbottom-30">Here are the  official community channels for Cashtree Token Project</h4>
+          <ul class="d-flex align-center justify-between">
+            <li><img src="{{asset('images/ig_community.svg')}}" alt=""></li>
+            <li><img src="{{asset('images/fb_community.svg')}}" alt=""></li>
+            <li><img src="{{asset('images/tw_community.svg')}}" alt=""></li>
+            <li><img src="{{asset('images/tel_community.svg')}}" alt=""></li>
+            <li><img src="{{asset('images/med_community.svg')}}" alt=""></li>
+            <li><img src="{{asset('images/dc_community.svg')}}" alt=""></li>
+          </ul>
+        </div>
       </div>
     </section>
 

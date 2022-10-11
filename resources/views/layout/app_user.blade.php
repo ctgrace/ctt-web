@@ -16,14 +16,16 @@
 
   <body>
     <div class="menu-mobile ">
-      <img class="close-menu mbottom-10" src="{{asset('images/close_menu.svg')}}" alt="" width="10">
+      <img class="close-menu" src="{{asset('images/close_menu.svg')}}" alt="" width="10">
       <ul class="navbar-menu">
         <li><a href="/#scn-ctt-is">What is CTT</a></li>
         <li><a href="/#scn-utility">Utility</a></li>
         <li><a href="/#scn-token">Tokenomics</a></li>
         <li><a href="/#scn-roadmap">Roadmaps</a></li>
+        <li><a href="/#scn-ecosystem">Ecosystem</a></li>
+        <li><a href="/#scn-community">Community</a></li>
         <li><a href="/#scn-team">Team</a></li>
-        {{-- <li><a href="/faq">F.A.Q</a></li> --}}
+        <li><a href="/faq">F.A.Q</a></li>
       </ul>
       <ul id="sub-menu-lang" class="lang-dropdown mtop-20">
         <li class="{{\Illuminate\Support\Facades\Config::get('app.locale') == 'en' ? 'active' : ''}}">
@@ -51,11 +53,21 @@
             <img class="mright-15" src="{{asset('images/logo.svg')}}" alt="" width="55">
           </a>
           <div class="text-logo">CTT</div>
-          <div class="text-logo-2">
+          {{-- <div class="text-logo-2">
             <div class="sub-text-logo">Blokchain Based</div>
             <div class="sub-text-logo">Advertising Mobile Platform</div>
-          </div>
+          </div> --}}
         </div>
+        <ul class="navbar-menu">
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-ctt-is">What is CTT</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-utility">Utility</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-token">Tokenomics</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-roadmap">Roadmaps</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-ecosystem">Ecosystem</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-community">Community</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-team">Team</a></li>
+          <li class="animate__animated animate__backInRight"><a class="nav" href="/faq">F.A.Q</a></li>
+        </ul>
         {{-- <div class="ctt_balance">
           <div class="balance">
             <img src="{{asset('images/small_ctt_logo.svg')}}" alt="">
@@ -79,14 +91,6 @@
           </div>
         </div> --}}
         <button class="sale animate__animated animate__backInLeft">Coming Soon!</button>
-        <ul class="navbar-menu">
-          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-ctt-is">What is CTT</a></li>
-          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-utility">Utility</a></li>
-          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-token">Tokenomics</a></li>
-          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-roadmap">Roadmaps</a></li>
-          <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-team">Team</a></li>
-          {{-- <li class="animate__animated animate__backInRight"><a class="nav" href="/faq">F.A.Q</a></li> --}}
-        </ul>
         <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between animate__animated animate__backInRight">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">
             <img class="z-2" src="{{asset('images/arrow_lang.svg')}}" alt="" width="10">
