@@ -952,13 +952,13 @@ header {
                             overflow-y: scroll;
                             overflow-x: hidden;
                             li{
+                                display: flex;
                                 margin-bottom: 20px;
                                 line-height: 20px;
                                 &::before{
                                     content: "\2022"; 
                                     color: #6723B9;
                                     display: inline-block;
-                                    width: fit-content;
                                     margin-right: 8px;
                                     font-size: 18px;
                                 }

@@ -4484,6 +4484,7 @@ header .navbar .menu-mobile {
   overflow-x: hidden;
 }
 .container-fluid #scn-team .container-section .ctt-team .ctt-card .body-card ul li {
+  display: flex;
   margin-bottom: 20px;
   line-height: 20px;
 }
@@ -4491,9 +4492,6 @@ header .navbar .menu-mobile {
   content: "•";
   color: #6723B9;
   display: inline-block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
   margin-right: 8px;
   font-size: 18px;
 }
@@ -4985,7 +4983,6 @@ footer .footer-content ul li img {
     display: block;
   }
   .container-fluid #scn-ecosystem {
-    padding: 30px 0;
     background-image: url("/images/bg_ecosystem_mobile.svg");
   }
   .container-fluid #scn-ecosystem .container-section .eco-logo {
@@ -4998,11 +4995,11 @@ footer .footer-content ul li img {
     top: -80px;
   }
   .container-fluid #scn-ecosystem .container-section .scn-tw-text {
-    width: 90%;
+    width: 90% !important;
   }
   .container-fluid #scn-ecosystem .container-section .scn-tw-text h3 {
     width: 50%;
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list {
     flex-direction: column;
@@ -5024,6 +5021,11 @@ footer .footer-content ul li img {
   .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list .col-3 img {
     width: 180px;
   }
+  .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list .col-3 .container-desc.ct-p p {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
   .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list .col-3 button {
     width: 100%;
     font-weight: 600;
@@ -5044,6 +5046,7 @@ footer .footer-content ul li img {
     margin: auto;
   }
   .container-fluid #scn-community .container-section .com-list ul {
+    width: 100%;
     flex-wrap: wrap;
   }
   .container-fluid #scn-community .container-section .com-list ul li {
@@ -5060,9 +5063,6 @@ footer .footer-content ul li img {
   }
   .container-fluid #scn-team {
     padding: 0 0 40px 0;
-  }
-  .container-fluid #scn-team .container-section .scn-tw-text {
-    width: 85% !important;
   }
   .container-fluid #scn-team .container-section .scn-tw-text .title-style .title-team {
     font-size: 16px;
@@ -5336,7 +5336,7 @@ footer .footer-content ul li img {
   .container-fluid #scn-tw .container-section .scn-tw-text.absolute {
     top: 575px;
     width: 90%;
-    left: 55%;
+    left: 52%;
     right: 0;
     transform: translate(-50%, 0);
   }
@@ -5364,11 +5364,11 @@ footer .footer-content ul li img {
     width: 95% !important;
   }
   .container-fluid #scn-ctt-is .container-section .container-btn {
-    padding-left: 40px;
+    padding-left: 55px;
     margin-bottom: 30px;
   }
   .container-fluid #how-to-earn .centered-content {
-    width: 90%;
+    width: 85%;
     border-radius: 32px;
     padding: 45px 30px;
   }
@@ -5425,8 +5425,33 @@ footer .footer-content ul li img {
     width: 400px;
     top: -60px;
   }
-  .container-fluid #scn-team .container-section .scn-tw-text {
-    width: 90%;
+  .container-fluid #scn-ecosystem {
+    padding: 30px 0;
+  }
+  .container-fluid #scn-ecosystem .container-section .eco-logo {
+    width: 200px;
+    top: -60px;
+  }
+  .container-fluid #scn-ecosystem .container-section .scn-tw-text {
+    width: 85%;
+    margin: auto;
+  }
+  .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list {
+    align-items: flex-start;
+  }
+  .container-fluid #scn-ecosystem .container-section .scn-tw-text .eco-list .col-3 img {
+    width: 150px;
+  }
+  .container-fluid #scn-community {
+    width: 85%;
+    margin: auto;
+    padding-bottom: 40px;
+  }
+  .container-fluid #scn-community .container-section .com-list ul li img {
+    width: 55px;
+  }
+  .container-fluid #scn-team .scn-tw-text {
+    width: 85%;
     margin: auto;
   }
   footer .footer-content .white-dots,

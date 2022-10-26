@@ -285,14 +285,14 @@
                 <td>100.000.000</td>
               </tr>
               <tr class="dist-token">
-                <td>Ecosystem (Product)</td>
+                <td>(Ecosystem) User Benefit</td>
                 <td>No lockup</td>
                 <td>Monthly distribution across 48 months</td>
                 <td>30%</td>
                 <td>1.500.000.000</td>
               </tr>
               <tr class="dist-token">
-                  <td>Ecosystem (Marketing)</td>
+                  <td>(Ecosystem) Marketing</td>
                   <td>6 Months Upfront Lockup</td>
                   <td>Monthly Distribution across 24 months</td>
                   <td>10%</td>
@@ -414,8 +414,18 @@
                 <h5>CSO</h5>
                 <h4>Bonifacio</h4>
                 <ul>
-                  <li>PT. Cashtree For Indonesia Head of Business Development</li>
-                  <li>MarComm Asst. Manager - AXA Mandiri GI Business Development - PEACH (UK AdTech Company)</li>
+                  <li>
+                      <div>
+                        <p>PT. Cashtree For Indonesia</p>
+                        <p>Head of Business Development</p>
+                      </div>
+                  </li>
+                  <li>
+                    <div>
+                      <p>MarComm Asst. Manager - AXA Mandiri GI</p>
+                      <p>Development - PEACH (UK AdTech Company)</p>
+                    </div>
+                  </li>
                   <li>Master Degree in Design - ITB</li>
                   <li>12+ years of experience in creative industry as Project Manager dealing with global clients</li>
                 </ul>
@@ -464,8 +474,14 @@
                 <h4>Anynda</h4>
                 <ul>
                   <li>Associate of Broadcasting - University of Indonesia </li>
-                  <li>Six Dimensions Cosmopolitan Magazine</li>
-                  <li>Matari Advertising JakJazz International Festival</li>
+                  <li>
+                    <div>
+                      <p>Six Dimensions</p>
+                      <p>Cosmopolitan Magazine</p>
+                      <p>Matari Advertising</p>
+                      <p>JakJazz International Festival</p>
+                    </div>
+                  </li>
                   <li>10+ years of experience in creative industry,  assisting global brands integrated campaigns</li>
                 </ul>
               </div>
@@ -518,8 +534,13 @@
                   <li>10+ years of experience in IT Industry</li>
                   <li>B.S Information System</li>
                   <li>PT. Media Baru Digital</li>
-                  <li>PT. Cashtree For Indonesia - Project Operation Manager</li>
-                  <li>Product Development Manager</li>
+                  <li>
+                    <div>
+                      <p>PT. Cashtree For Indonesia</p>
+                      <p>Project Operation Manager</p>
+                      <p>Product Development Manager</p>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -602,8 +623,12 @@
                 <ul>
                   <li>20 years experience in the finance and technology sectors.</li>
                   <li>Investment strategist - Citibank</li>
-                  <li>Co-founder of Jenga K (Blockchain consultancy) and Lodestart (Startups research)</li>
-                  <li>Accelerating and advising various global blockchain projects</li>
+                  <li>
+                    <div>
+                      <p>Co-founder of Jenga K (Blockchain consultancy) and Lodestart (Startups research)</p>
+                      <p>Accelerating and advising various global blockchain projects</p>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div class="elips absolute">
