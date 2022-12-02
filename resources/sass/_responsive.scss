@@ -693,16 +693,20 @@
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    width: 65%;
+                    width: 75%;
                     margin-bottom: 5px;
                     &.active{
                         display: flex!important;
+                        &::before{
+                            content: '\2022';
+                            margin-right: 10px;
+                        }
                     }
                     &::before{
-                        content: "\2022";
+                        content: '';
                         color: #FF0FD9;
                         font-size: 22px;
-                        margin-right: 10px;
+                        margin-right: 22px;
                     }
                 }
             }

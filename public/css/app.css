@@ -5291,17 +5291,21 @@ footer .footer-content ul li img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 65%;
+    width: 75%;
     margin-bottom: 5px;
   }
   .menu-mobile ul.lang-dropdown li.active {
     display: flex !important;
   }
-  .menu-mobile ul.lang-dropdown li::before {
+  .menu-mobile ul.lang-dropdown li.active::before {
     content: "•";
+    margin-right: 10px;
+  }
+  .menu-mobile ul.lang-dropdown li::before {
+    content: "";
     color: #FF0FD9;
     font-size: 22px;
-    margin-right: 10px;
+    margin-right: 22px;
   }
   .container-fluid .container-section {
     width: 100% !important;

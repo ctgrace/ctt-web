@@ -33,11 +33,11 @@
       <ul id="sub-menu-lang" class="lang-dropdown mtop-20">
         <li class="{{\Illuminate\Support\Facades\Config::get('app.locale') == 'en' ? 'active' : ''}}">
           <a class="language" href="{{url('/setlang/en')}}">@lang('lang.english')</a>
-          <img src="{{asset('images/flag_eng.svg')}}" alt="">
+          <img class="mleft-10" src="{{asset('images/flag_eng.svg')}}" alt="">
         </li>
         <li class="{{\Illuminate\Support\Facades\Config::get('app.locale') == 'id' ? 'active' : ''}}">
           <a class="language" href="{{url('/setlang/id')}}">@lang('lang.indonesian')</a>
-          <img src="{{asset('images/flag_ind.svg')}}" alt="">
+          <img class="mleft-10" src="{{asset('images/flag_ind.svg')}}" alt="">
         </li>
         {{-- <li>
           <a href="#">Korea</a>
