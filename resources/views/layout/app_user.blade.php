@@ -92,6 +92,7 @@
             </div>
           </div>
         </div> --}}
+        
         <button class="sale animate__animated animate__backInLeft">Coming Soon!</button>
         <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between animate__animated animate__backInRight">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">
