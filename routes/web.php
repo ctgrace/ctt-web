@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,15 @@ Route::get('/', function () {
 
 Route::get('/faq', function () {
     return view('faq');
+});
+
+Route::get('/download/whitepaper', function () {
+    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_Public_Dec2022.pdf";
+    $headers = array(
+              'Content-Type: application/pdf',
+            );
+
+    return Response::download($file, 'Cashtree_Whitepaper.pdf', $headers);
 });
 
 Route::get('/policy', function () {
