@@ -334,6 +334,14 @@ header {
         }
         .menu-lang{
             width: 90px;
+            // .option-lang{
+            //     &::before{
+            //         content: "\2022";
+            //         color: #FF0FD9;
+            //         font-weight: bold;
+            //         font-size: 20px;
+            //     }
+            // }
             &.active{
                  /* background-image: linear-gradient(45deg, #751EDE, #4D1295); */
                 position: absolute;
@@ -519,7 +527,7 @@ header {
             }
             .ct-p {
                 color: #ECDBFF;
-                top: 480px;
+                top: 520px;
                 text-align: center;
                 width:90%;
                 margin: auto;
@@ -657,7 +665,7 @@ header {
         background-position: top left;
         background-size: cover;
         .container-section{
-            .circle-diagram{
+            .pie-chart{
                 .token-table{
                     display: flex;
                     align-items: center;
@@ -679,40 +687,34 @@ header {
                                 border-radius: 15px;
                                 margin-right: 20px;
                                 &.pv-sale{
-                                    background-color: #FC0D1B;
+                                    background-color: #FA2D68;
                                 }
                                 &.pb-sale{
-                                    background-color: #E25235;
+                                    background-color: #DD5034;
                                 }
                                 &.fndt{
-                                    background-color: #FD8A25;
+                                    background-color: #FA8624;
                                 }
                                 &.tm{
-                                    background-color: #E6C42B;
+                                    background-color: #E1BF2A;
                                 }
                                 &.adv{
-                                    background-color: #B9A48B;
+                                    background-color:#6ABEDD;
                                 }
-                                &.usr-rwrd{
-                                    background-color: #852781;
+                                &.prtnr{
+                                    background-color: #714BF3;
                                 }
                                 &.st-in{
-                                    background-color: #AC1C7A;
+                                    background-color: #A51CA5;
                                 }
                                 &.p2e{
-                                    background-color: #299DD4;
+                                    background-color: #A81B78;
                                 }
-                                &.ct-com{
-                                    background-color: #28D280;
-                                }
-                                &.mrktg{
-                                    background-color: #9FE130;
-                                }
-                                &.pne{
-                                    background-color: #666666;
+                                &.ld{
+                                    background-color: #27CD7E;
                                 }
                                 &.rnc{
-                                    background-color: #FC2E6A;
+                                    background-color: #9BDC2F;
                                 }
                             }
                         }
@@ -720,9 +722,9 @@ header {
                 }
                 img{
                     &.absolute{
-                        top: -120px;
-                        right: 0;
-                        width: 475px;
+                        top: -155px;
+                        right: 70px;
+                        width: 445px
                     }
                 }
             }

@@ -22,8 +22,10 @@
         <div class="ct-p absolute">
           <p>@lang('lang.ctt_is')</p>
         </div>
-        <button class="ln-mr absolute open-modal pointer">@lang('lang.ln_mr')</button>
-        <img class="arrow-ln absolute" src="{{asset('images/arrow_down_purple.svg')}}" alt="">
+        {{-- <button class="ln-mr absolute open-modal pointer">@lang('lang.ln_mr')</button> --}}
+        <a href="/#scn-tw">
+          <img class="arrow-ln absolute pointer" src="{{asset('images/arrow_down_purple.svg')}}" alt="">
+        </a>
         <div class="modal-video d-none">
           <div class="modal-content relative">
             <button class="close-modal pointer"></button>
@@ -116,11 +118,9 @@
               </div>
               <button class="read-more pointer" data-id="desc-lang">
                 <div>@lang('lang.ln_mr')</div>
-                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
               <button class="read-less pointer" data-id="desc-lang">
                 <div>@lang('lang.ln_ls')</div>
-                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
             </div>
             <div class="col-3 desc-product relative">
@@ -130,11 +130,9 @@
               </div>
               <button class="read-more pointer" data-id="desc-lang2">
                 <div>@lang('lang.ln_mr')</div>
-                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
               <button class="read-less pointer" data-id="desc-lang2">
                 <div>@lang('lang.ln_ls')</div>
-                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
             </div>
             <div class="col-3 desc-product relative">
@@ -144,11 +142,9 @@
               </div>
               <button class="read-more pointer" data-id="desc-lang3">
                 <div>@lang('lang.ln_mr')</div>
-                <img src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
               <button class="read-less pointer" data-id="desc-lang3">
                 <div>@lang('lang.ln_ls')</div>
-                <img width="10" src="{{asset('images/arrow_ln_more.svg')}}" alt="">
               </button>
             </div>
           </div>
@@ -167,62 +163,54 @@
           <div class="ct-p" data-aos="zoom-in" data-aos-duration="1000">
             <p class="fp-white w-60">@lang('lang.p_token')</p>
           </div>
-          <div class="relative circle-diagram">
+          <div class="relative pie-chart">
             <div class="token-table">
               <ul class="mright-60">
                 <li>
                   <div class="pv-sale"></div>
-                  <p>Private-Sale</p>
+                  <p>Private Sale 12%</p>
                 </li>
                 <li>
                   <div class="pb-sale"></div>
-                  <p>Public-Sale</p>
+                  <p>Public Sale 5%</p>
                 </li>
                 <li>
                   <div class="fndt"></div>
-                  <p>Foundation</p>
+                  <p>Foundation (Corporation) 10%</p>
                 </li>
                 <li>
                   <div class="tm"></div>
-                  <p>Team</p>
+                  <p>Team 10%</p>
                 </li>
                 <li>
                   <div class="adv"></div>
-                  <p>Advisors</p>
-                </li>
-                <li>
-                  <div class="usr-rwrd"></div>
-                  <p>Product (User Rewards)</p>
+                  <p>Advisors 2%</p>
                 </li>
               </ul>
               <ul>
                 <li>
+                  <div class="prtnr"></div>
+                  <p>Partner 8%</p>
+                </li>
+                <li>
                   <div class="st-in"></div>
-                  <p>Product (Staking Incentives)</p>
+                  <p>Ecosystem (User Benefit) 30%</p>
                 </li>
                 <li>
                   <div class="p2e"></div>
-                  <p>Product (P2E)</p>
+                  <p>Ecosystem (Marketing) 30%</p>
                 </li>
                 <li>
-                  <div class="ct-com"></div>
-                  <p>Product (Cashtree Community)</p>
-                </li>
-                <li>
-                  <div class="mrktg"></div>
-                  <p>Marketing</p>
-                </li>
-                <li>
-                  <div class="pne"></div>
-                  <p>Partnership & Ecosystem</p>
+                  <div class="ld"></div>
+                  <p>Liquidity 6%</p>
                 </li>
                 <li>
                   <div class="rnc"></div>
-                  <p>Reserves & Contingency</p>
+                  <p>Reserves & Contingency 7%</p>
                 </li>
               </ul>
             </div>
-            <img class="absolute" src="{{asset('images/circle_diagram.svg')}}" alt="">
+            <img class="absolute" src="{{asset('images/pie-chart.svg')}}" alt="">
           </div>
           <table>
               <thead>
@@ -244,50 +232,50 @@
               <tbody>
               <tr class="dist-token">
                 <td>Private Sale</td>
-                <td>12 Months Upfront Lockup</td>
-                <td>Monthly Distribution across 12 months</td>
+                <td>18 Months Upfront Lockup</td>
+                <td>Monthly Distribution across 24 months</td>
                 <td>12%</td>
                 <td>600.000.000</td>
               </tr>
               <tr class="dist-token">
                 <td>Public Sale</td>
-                <td>6 Months Upfront Lockup</td>
-                <td>Monthly Distribution across 12 months</td>
+                <td>No Lockup</td>
+                <td>No Lockup</td>
                 <td>5%</td>
                 <td>250.000.000</td>
               </tr>
               <tr class="dist-token">
                 <td>Foundation (Corporation)</td>
-                <td>6 Months Upfront Lockup</td>
-                <td>Annual Distribution across 36 months</td>
+                <td>18 Months Upfront Lockup</td>
+                <td>Monthly Distribution across 36 months</td>
                 <td>10%</td>
                 <td>500.000.000</td>
               </tr>
               <tr class="dist-token">
                 <td>Team</td>
-                <td>12 Months Upfront Lockup</td>
-                <td>Annual Distribution Across 3 years</td>
+                <td>18 Months Upfront Lockup</td>
+                <td>Monthly Distribution Across 36 months</td>
                 <td>10%</td>
                 <td>500.000.000</td>
               </tr>
               <tr class="dist-token">
-                  <td>Partner</td>
-                  <td>12 Months Upfront Lockup</td>
-                  <td>Monthly Distribution Across 12 months</td>
+                  <td>Partner</td>`
+                  <td>18 Months Upfront Lockup</td>
+                  <td>Monthly Distribution Across 24 months</td>
                   <td>8%</td>
                   <td>400.000.000</td>
               </tr>
               <tr class="dist-token">
-                <td>Advisors</td>
-                <td>12 Months Upfront Lockup</td>
-                <td>Monthly Distribution Across 12 months</td>
+                <td>Advisor</td>
+                <td>18 Months Upfront Lockup</td>
+                <td>Monthly Distribution Across 24 months</td>
                 <td>2%</td>
                 <td>100.000.000</td>
               </tr>
               <tr class="dist-token">
                 <td>(Ecosystem) User Benefit</td>
-                <td>No lockup</td>
-                <td>Monthly distribution across 48 months</td>
+                <td>No Lockup</td>
+                <td>Monthly distribution across 60 months</td>
                 <td>30%</td>
                 <td>1.500.000.000</td>
               </tr>
@@ -299,11 +287,18 @@
                   <td>500.000.000</td>
               </tr>
               <tr class="dist-token">
-                <td>Reserves & Contingency</td>
-                <td>No lockup</td>
+                <td>Liquidity</td>
                 <td>No Lockup</td>
-                <td>13%</td>
-                <td>650.000.000</td>
+                <td>No Lockup</td>
+                <td>6%</td>
+                <td>300.000.000</td>
+            </tr>
+              <tr class="dist-token">
+                <td>Reserves & Contingency</td>
+                <td>No Lockup</td>
+                <td>No Lockup</td>
+                <td>7%</td>
+                <td>350.000.000</td>
               </tr>
               <tr class="dist-token total">
                   <td>
@@ -367,12 +362,12 @@
         <div class="com-list mtop-40">
           <h4 class="fp-purple fs-20 text-center mbottom-30">Here are the  official community channels for Cashtree Token Project</h4>
           <ul class="d-flex align-center justify-between">
-            <li><img src="{{asset('images/ig_community.svg')}}" alt=""></li>
-            <li><img src="{{asset('images/fb_community.svg')}}" alt=""></li>
-            <li><img src="{{asset('images/tw_community.svg')}}" alt=""></li>
-            <li><img src="{{asset('images/tel_community.svg')}}" alt=""></li>
-            <li><img src="{{asset('images/med_community.svg')}}" alt=""></li>
-            <li><img src="{{asset('images/dc_community.svg')}}" alt=""></li>
+            <li><a target="blank" href="https://instagram.com/cashtreetoken?igshid=NDc0ODY0MjQ="><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://www.facebook.com/cashtreetoken/"><img src="{{asset('images/fb_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://twitter.com/Cashtree_Token?t=a3tGLktPmSRfNYWgcs2NcQ&s=09"><img src="{{asset('images/tw_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://t.me/CashtreeToken"><img src="{{asset('images/tel_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://medium.com/@CashtreeToken "><img src="{{asset('images/med_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://discord.gg/RPcAXXSKEY"><img src="{{asset('images/dc_community.svg')}}" alt=""></a></li>
           </ul>
         </div>
       </div>
@@ -423,7 +418,7 @@
                   <li>
                     <div>
                       <p>MarComm Asst. Manager - AXA Mandiri GI</p>
-                      <p>Development - PEACH (UK AdTech Company)</p>
+                      <p>Business Development - PEACH (UK AdTech Company)</p>
                     </div>
                   </li>
                   <li>Master Degree in Design - ITB</li>
@@ -499,7 +494,7 @@
                   <li>Hakuhodo Indonesia Advertising Agency</li>
                   <li>Electronic Solution</li>
                   <li>Topindo Lucky Sport</li>
-                  <li>PT Cashtree For Indonesia</li>
+                  <li>PT. Cashtree For Indonesia</li>
                   <li>B.A Visual Communication Design</li>
                 </ul>
               </div>
@@ -658,7 +653,7 @@
                 <h4>Jay Lim</h4>
                 <ul>
                   <li>10+ years of experience in Startup Acceleration, Investment, and Strategy.</li>
-                  <li>Vice President/ Hanwha Asset Management/ Global Innovation Team</li>
+                  <li>Vice President/Hanwha Asset Management/Global Innovation Team</li>
                   <li>Shinhan Financial Group</li>
                   <li>E&Y</li>
                 </ul>
@@ -705,9 +700,44 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
-                <h4>Khrisna R</h4>
+                <h4>Robby Jeo</h4>
                 <ul>
-                  <li>Founder & Chairman, Digital Insight</li>
+                  <li>Founder & CEO Komunitas (IDO Platform)</li>
+                  <li>Serial entrepreneur, investor, and advisor</li>
+                  <li>Polygon Advocates for Indonesia Region</li>
+                  <li>Highly analytical skill, effective communicator, and serious amount of business acumen. His strength is at Business
+                    Development to expansion and building connections.</li>
+                </ul>
+              </div>
+              <div class="elips absolute">
+                <img src="{{asset('images/robby.webp')}}" alt="">
+              </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="top-card"></div>
+              <div class="body-card">
+                <h5>Advisor</h5>
+                <h4>Nanda Ivens</h4>
+                <ul>
+                  <li>Former CMO of Tokocrypto</li>
+                  <li>20+ years experience in advertising, communication, and digital marketing</li>
+                  <li>Former Director of Edelman Digital</li>
+                  <li>Former CEO XM Gravity</li>
+                  <li>Former APAC CEO of Mirum Agency</li>
+                  <li>Former Strategic Advisor of Telkomsel</li>
+                </ul>
+              </div>
+              <div class="elips absolute">
+                <img src="{{asset('images/nanda.webp')}}" alt="">
+              </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="top-card"></div>
+              <div class="body-card">
+                <h5>Business Advisor</h5>
+                <h4>Khrisna Ramachandra</h4>
+                <ul>
+                  <li>Founder & Chairman, Digital Insights</li>
                   <li>Global Head of Fintech / Blockchain & Digitalisation</li>
                   <li>Ex-Chairman, Selvam LLC</li>
                   <li>Immediate Past Chairman & Managing Director of Duane Morris & Selvam LLP (Singapore, Myanmar, Sri Lanka)</li>

@@ -4074,7 +4074,7 @@ header .navbar .menu-mobile {
 }
 .container-fluid #scn-landing .container-section .ct-p {
   color: #ECDBFF;
-  top: 480px;
+  top: 520px;
   text-align: center;
   width: 90%;
   margin: auto;
@@ -4200,7 +4200,7 @@ header .navbar .menu-mobile {
   background-position: top left;
   background-size: cover;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table {
+.container-fluid #scn-token .container-section .pie-chart .token-table {
   display: flex;
   align-items: center;
   background-color: #6020A5;
@@ -4209,59 +4209,53 @@ header .navbar .menu-mobile {
   border-radius: 15px;
   margin-top: 30px;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li {
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li {
   display: flex;
   align-items: center;
   color: #ffffff;
   font-weight: 300;
   margin-bottom: 15px;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div {
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
   width: 40px;
   height: 20px;
   border-radius: 15px;
   margin-right: 20px;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.pv-sale {
-  background-color: #FC0D1B;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.pv-sale {
+  background-color: #FA2D68;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.pb-sale {
-  background-color: #E25235;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.pb-sale {
+  background-color: #DD5034;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.fndt {
-  background-color: #FD8A25;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.fndt {
+  background-color: #FA8624;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.tm {
-  background-color: #E6C42B;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.tm {
+  background-color: #E1BF2A;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.adv {
-  background-color: #B9A48B;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.adv {
+  background-color: #6ABEDD;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.usr-rwrd {
-  background-color: #852781;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.prtnr {
+  background-color: #714BF3;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.st-in {
-  background-color: #AC1C7A;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.st-in {
+  background-color: #A51CA5;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.p2e {
-  background-color: #299DD4;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.p2e {
+  background-color: #A81B78;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.ct-com {
-  background-color: #28D280;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.ld {
+  background-color: #27CD7E;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.mrktg {
-  background-color: #9FE130;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.rnc {
+  background-color: #9BDC2F;
 }
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.pne {
-  background-color: #666666;
-}
-.container-fluid #scn-token .container-section .circle-diagram .token-table ul li div.rnc {
-  background-color: #FC2E6A;
-}
-.container-fluid #scn-token .container-section .circle-diagram img.absolute {
-  top: -120px;
-  right: 0;
-  width: 475px;
+.container-fluid #scn-token .container-section .pie-chart img.absolute {
+  top: -155px;
+  right: 70px;
+  width: 445px;
 }
 .container-fluid #scn-token .container-section table {
   position: relative;
@@ -4851,68 +4845,70 @@ footer .footer-content ul li img {
     background-color: #F41F91;
     background-image: none;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram {
+  .container-fluid #scn-utility .container-section .pie-chart {
     display: flex;
     flex-direction: column;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram .token-table {
+  .container-fluid #scn-utility .container-section .pie-chart .token-table {
     order: 1;
     margin-top: -190px;
     padding: 190px 20px 45px;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram .token-table ul {
+  .container-fluid #scn-utility .container-section .pie-chart .token-table ul {
     margin-right: 0;
     width: 50%;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram .token-table ul li {
+  .container-fluid #scn-utility .container-section .pie-chart .token-table ul li {
     height: 55px;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram .token-table ul li p {
+  .container-fluid #scn-utility .container-section .pie-chart .token-table ul li p {
     width: 100px;
     word-break: break-word;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram .token-table ul li div {
+  .container-fluid #scn-utility .container-section .pie-chart .token-table ul li div {
     width: 28px;
   }
-  .container-fluid #scn-utility .container-section .circle-diagram img.absolute {
+  .container-fluid #scn-utility .container-section .pie-chart img.absolute {
     position: relative;
-    top: 20px !important;
-    width: 90% !important;
-    margin: auto;
+    top: 5px !important;
+    width: 85% !important;
+    margin: auto !important;
+    left: 5px !important;
   }
   .container-fluid #scn-token {
     padding: 40px 0 100px 0;
   }
-  .container-fluid #scn-token .container-section .circle-diagram {
+  .container-fluid #scn-token .container-section .pie-chart {
     display: flex;
     flex-direction: column;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table {
+  .container-fluid #scn-token .container-section .pie-chart .token-table {
     order: 1;
     margin-top: -150px;
     padding: 160px 30px 45px !important;
     flex-direction: row !important;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul {
     width: 50%;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul li {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul li {
     height: 25px;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul li p {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul li p {
     width: 100px;
     font-size: 12px;
     word-break: break-word;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul li div {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
     width: 22px !important;
     height: 16px !important;
   }
-  .container-fluid #scn-token .container-section .circle-diagram img.absolute {
+  .container-fluid #scn-token .container-section .pie-chart img.absolute {
     position: relative;
-    top: 20px !important;
-    width: 90% !important;
-    margin: auto;
+    top: 5px !important;
+    width: 85% !important;
+    margin: auto !important;
+    left: 5px !important;
   }
   .container-fluid #scn-token .container-section .scn-tw-text {
     width: 100% !important;
@@ -4930,6 +4926,7 @@ footer .footer-content ul li img {
   }
   .container-fluid #scn-token .container-section .scn-tw-text table {
     font-size: 10px;
+    margin-top: 0;
   }
   .container-fluid #scn-token .container-section .scn-tw-text table thead tr:nth-child(3) {
     font-size: 8px;
@@ -4969,7 +4966,7 @@ footer .footer-content ul li img {
     height: 5rem;
   }
   .container-fluid #scn-roadmap {
-    padding: 0 !important;
+    padding: 0 0 45px;
   }
   .container-fluid #scn-roadmap h3 {
     padding-top: 20px;
@@ -4992,7 +4989,7 @@ footer .footer-content ul li img {
     width: 160px;
     right: 0;
     position: absolute;
-    top: -80px;
+    top: -100px;
   }
   .container-fluid #scn-ecosystem .container-section .scn-tw-text {
     width: 90% !important;
@@ -5409,19 +5406,19 @@ footer .footer-content ul li img {
   .container-fluid #scn-token .container-section {
     width: 90% !important;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table {
+  .container-fluid #scn-token .container-section .pie-chart .token-table {
     padding: 25px;
     flex-direction: column;
     align-items: flex-start;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul.mright-60 {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul.mright-60 {
     margin-right: 0 !important;
   }
-  .container-fluid #scn-token .container-section .circle-diagram .token-table ul li div {
+  .container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
     width: 28px;
     height: 18px;
   }
-  .container-fluid #scn-token .container-section .circle-diagram img.absolute {
+  .container-fluid #scn-token .container-section .pie-chart img.absolute {
     width: 400px;
     top: -60px;
   }
