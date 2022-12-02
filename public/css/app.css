@@ -3938,7 +3938,7 @@ header .navbar .menu-lang .lang-dropdown li {
   white-space: nowrap;
 }
 header .navbar .menu-lang .lang-dropdown li::before {
-  content: "•";
+  content: " ";
   color: #FF0FD9;
   font-weight: bold;
   font-size: 20px;
@@ -3954,6 +3954,9 @@ header .navbar .menu-lang .lang-dropdown li.active a {
   color: #fff;
   font-weight: 700;
   letter-spacing: 0.25px;
+}
+header .navbar .menu-lang .lang-dropdown li.active::before {
+  content: "•";
 }
 header .navbar .burger {
   display: none;

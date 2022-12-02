@@ -377,7 +377,7 @@ header {
                     margin-bottom: 5px;
                     white-space: nowrap;
                     &::before{
-                        content: "\2022";
+                        content: " ";
                         color: #FF0FD9;
                         font-weight: bold;
                         font-size: 20px;
@@ -394,6 +394,12 @@ header {
                             color: #fff;
                             font-weight: 700;
                             letter-spacing: .25px;
+                        } 
+                        &::before{
+                            content: "\2022";
+                            // color: #FF0FD9;
+                            // font-weight: bold;
+                            // font-size: 20px;
                         }
                     }
                 }
