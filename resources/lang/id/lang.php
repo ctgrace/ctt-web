@@ -50,5 +50,8 @@ return [
     'token' => 'Tokenomics',
     'p_token' => ' Token Cashtree akan diluncurkan dengan jumlah maksimum sebesar 5,000,000,000 Token Cashtree dengan detail distribusi sebagai berikut:',
     'ctt_team' => 'Tim di belakang proyek CTT adalah tim yang terdiri dari orang-orang yang pintar, bersemangat, berkomitmen tinggi, dan pribadi yang seru. Tim ini adalah tempat bagi mereka yang percaya pada adopsi mata uang kripto dan teknologi blockchain untuk masa depan yang lebih baik.',
-    'active_lang' => 'Ind'
+    'active_lang' => 'Ind',
+    'cashtree' => 'Cashtree adalah platform mobile advertising berbasis aplikasi reward yang bertujuan untuk menjadi media mobile paling berpengaruh yang menjangkau masyarakat kelas menengah Indonesia dan telah dipasang oleh lebih dari 10 juta pengguna oleh masyarakat Indonesia.',
+    'hotdeal' => 'Hotdeal adalah platform baru yang memberikan pengalaman baru dalam berbelanja, hadir sebagai platform e-commerce baru yang memanfaatkan video sebagai komunikasi utama kepada audiensnya. Menyediakan video shopping yang imersif untuk menyempurnakan semua sisi produk yang dapat menarik audiens dan mendorong keinginan mereka untuk berbelanja lebih banyak lagi.',
+    'lasan' => 'Lagi Santai adalah tempat baru, rumah baru bagi pembuat konten, pendongeng, ahli dari berbagai bidang bahkan untuk pendatang baru. Ini adalah tempat di mana semua peserta dapat bertukar informasi, berinteraksi, berbagi karya dan ide untuk hadir ke dunia dan menginspirasi jiwa di luar sana.'
 ];

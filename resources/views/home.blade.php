@@ -333,23 +333,29 @@
         <div>
         <div class="d-flex mtop-40 eco-list relative" data-aos="fade-up" data-aos-duration="300">
           <div class="col-3">
-            <img width="200" class="ct" src="{{asset('images/logo_ct.svg')}}" alt="">
-            <div class="container-desc ct-p">
-              <p>Cashtree is a mobile advertising platform based on reward app which aims to become the most influential mobile media reaching mid class Indonesians and has been installed by more than 10 million users by Indonesian people.</p>
+            <div>
+              <img width="200" class="ct" src="{{asset('images/logo_ct.svg')}}" alt="">
+              <div class="container-desc ct-p">
+                <p>@lang('lang.cashtree')</p>
+              </div>
             </div>
             <a href="http://cashtree.id" target="_blank"><button class="btn-pink">visit</button></a>
           </div>
           <div class="col-3">
-            <img width="210" src="{{asset('images/logo_hotdeal.svg')}}" alt="">
-            <div class="container-desc ct-p">
-              <p>Hotdeal are a new platform providing new experience of shopping, present as new e commerce platform utilizing video as main communication to it’s audience. Providing immersive video shopping to enhance all sides of product that can attract audience and boost they desire to shop even more.</p>
+            <div>
+              <img width="210" src="{{asset('images/logo_hotdeal.svg')}}" alt="">
+              <div class="container-desc ct-p">
+                <p>@lang('lang.hotdeal')</p>
+              </div>
             </div>
             <a href="http://hotdeal.id" target="_blank"><button class="btn-pink">visit</button></a>
           </div>
           <div class="col-3">
-            <img width="130" src="{{asset('images/logo_lasan.svg')}}" alt="">
-            <div class="container-desc ct-p">
-              <p>Lagi Santai is a new place, new home for content creators, storytellers, experts from various fields even for a new comers. This is the place where all participants can exchange information, interact, share works and ideas to be present to the world and inspires souls out there.</p>
+            <div>
+              <img width="130" src="{{asset('images/logo_lasan.svg')}}" alt="">
+              <div class="container-desc ct-p">
+                <p>@lang('lang.lasan')</p>
+              </div>
             </div>
             <a href="http://lagisantai.id" target="_blank"><button class="btn-pink">visit</button></a>
           </div>
