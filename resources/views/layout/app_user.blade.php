@@ -20,7 +20,7 @@
     <div class="menu-mobile ">
       <img class="close-menu" src="{{asset('images/close_menu.svg')}}" alt="" width="10">
       <ul class="navbar-menu">
-        <li><a target="blank" href="https://docs.cashtreetoken.io/">Docs</a></li>
+        <li><a target="blank" href="https://docs.cashtreetoken.io/cashtree-1/v/english/introduction/cashtree">Docs</a></li>
         <li><a href="/#scn-ctt-is">What is CTT</a></li>
         <li><a href="/#scn-utility">Utility</a></li>
         <li><a href="/#scn-token">Tokenomics</a></li>
@@ -62,7 +62,7 @@
           </div> --}}
         </div>
         <ul class="navbar-menu">
-          <li class="animate__animated animate__backInRight"><a target="blank" class="nav" href="http://docs.cashtreetoken.io/">Docs</a></li>
+          <li class="animate__animated animate__backInRight"><a target="blank" class="nav" href="https://docs.cashtreetoken.io/cashtree-1/v/english/introduction/cashtree">Docs</a></li>
           <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-ctt-is">What is CTT</a></li>
           <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-utility">Utility</a></li>
           <li class="animate__animated animate__backInRight"><a class="nav" href="/#scn-token">Tokenomics</a></li>
