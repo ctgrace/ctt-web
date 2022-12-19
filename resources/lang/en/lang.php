@@ -47,7 +47,7 @@ return [
     'token' => 'Tokenomics',
     'p_token' => 'Cashtree Tokens will be released with a maximum amount of 5,000,000,000 Cashtree Token (CTT) with the following distribution:',
     'ctt_team' => 'The team behind CTT is a team of smart, passionate, committed, and fun people. This team is for those who believe in the adoption of cryptocurrency and blockchain technology for a better future.',
-    'active_lang' => 'Eng',
+    'active_lang' => 'ENG',
     'cashtree' => 'Cashtree is a mobile advertising platform based on reward app which aims to become the most influential mobile media reaching mid class Indonesians and has been installed by more than 10 million users by Indonesian people.',
     'hotdeal' => 'Hotdeal are a new platform providing new experience of shopping, present as new e commerce platform utilizing video as main communication to it’s audience. Providing immersive video shopping to enhance all sides of product that can attract audience and boost they desire to shop even more.',
     'lasan' => 'Lagi Santai is a new place, new home for content creators, storytellers, experts from various fields even for a new comers. This is the place where all participants can exchange information, interact, share works and ideas to be present to the world and inspires souls out there.'
