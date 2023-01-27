@@ -24,7 +24,7 @@ return [
     'through' => 'Melalui Cashtree Blockchain Projek,',
     'be_gate' => 'Cashtree berkomitmen untuk menjadi gerbang untuk adaptasi kripto di Indonesia.',
     'what_is' => 'Apa itu :',
-    'ctoken_ctt' => 'Token Cashtree ‘CTT’',
+    'ctoken_ctt' => 'Token Cashtree "CTT"',
     'ctt_new' => 'Token Cashtree (CTT) adalah insentif baru yang dapat digunakan di dalam aplikasi Cashtree dan Ekosistem Bisnis Cashtree. Token Cashtree akan tersedia bersamaan dengan penggunaan Cashtree Poin;
                 sebuah insentif untuk para pengguna Cashtree yang saat ini tersedia di dalam aplikasi Cashtree dan dapat ditukarkan dengan berbagai hadiah di dalam aplikasi Cashtree ; selama masa transisi, dan  nantinya Token Cashtree akan diimplementasikan sepenuhnya sebagai satu-satunya reward di dalam Cashtree. 
                 Selaras dengan misi dari Cashtree untuk menjadi “pintu gerbang” dalam adopsi kripto di Indonesia, kami juga ingin menghadirkan berbagai benefit dari kripto dan mewujudkan demokratisasi ekonomi bagi seluruh pengguna. Implementasi Token Cashtree (CTT) nantinya akan memperkenalkan berbagai layanan dan 
@@ -54,4 +54,4 @@ return [
     'cashtree' => 'Cashtree adalah platform mobile advertising berbasis aplikasi reward yang bertujuan untuk menjadi media mobile paling berpengaruh yang menjangkau masyarakat kelas menengah Indonesia dan telah dipasang oleh lebih dari 10 juta pengguna oleh masyarakat Indonesia.',
     'hotdeal' => 'Hotdeal adalah platform baru yang memberikan pengalaman baru dalam berbelanja, hadir sebagai platform e-commerce baru yang memanfaatkan video sebagai komunikasi utama kepada audiensnya. Menyediakan video shopping yang imersif untuk menyempurnakan semua sisi produk yang dapat menarik audiens dan mendorong keinginan mereka untuk berbelanja lebih banyak lagi.',
     'lasan' => 'Lagi Santai adalah tempat baru, rumah baru bagi pembuat konten, pendongeng, ahli dari berbagai bidang bahkan untuk pendatang baru. Ini adalah tempat di mana semua peserta dapat bertukar informasi, berinteraksi, berbagi karya dan ide untuk hadir ke dunia dan menginspirasi jiwa di luar sana.'
-]
+];
