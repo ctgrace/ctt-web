@@ -5,7 +5,7 @@
 <div class="container-fluid">
     <section id="scn-faq">
         <div class="container-section w-60 relative">
-            <h1 class="fp-purple fw-300 fs-46">F.A.Q</h1>
+            <h1 class="fp-purple fw-400 fs-46">F.A.Q</h1>
             <h2 class="fp-purple fw-800 fs-44 mbottom-30">Frequently Asked Question</h2>
             <div class="section-faq">
                 <div class="faq-item">

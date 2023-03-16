@@ -22,8 +22,12 @@ Route::get('/faq', function () {
     return view('faq');
 });
 
+Route::get('/airdrop', function () {
+    return view('airdrop');
+});
+
 Route::get('/download/whitepaper', function () {
-    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_Public_Dec2022.pdf";
+    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_rev_060323-compressed.pdf";
     $headers = array(
               'Content-Type: application/pdf',
             );

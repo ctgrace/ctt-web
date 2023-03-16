@@ -908,6 +908,29 @@
                 margin: auto;
             }
         }
+        #scn-airdrop{
+            .airdrop{
+                .d-flex{
+                    flex-direction: column;
+                    width: 90%!important;
+                    margin: auto;
+                }
+                .w-45,.w-55{
+                    width: 100%!important;
+                }
+                .ct-user{
+                    flex-direction: column;
+                    padding: 25px;
+                    width: 85%!important;
+                }
+                .text-airdrop{
+                    width: 100%;
+                }
+                .padding-mobile{
+                    padding: 0 20px;
+                }
+            }
+        }
     }
     footer{
         .footer-content{

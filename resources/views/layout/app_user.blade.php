@@ -95,7 +95,9 @@
           </div>
         </div> --}}
         
-        <button class="sale animate__animated animate__backInLeft">Coming Soon!</button>
+        <a class="pointer" href="/airdrop">
+          <button class="sale pointer animate__animated animate__backInLeft">@lang('lang.join_airdrop')</button>
+        </a>
         <div id="dropdown-lang" class="menu-lang d-flex pointer relative justify-between animate__animated animate__backInRight">
           <div class="d-flex align-center absolute w-100 justify-between option-lang">
             <img class="z-2" src="{{asset('images/arrow_lang.svg')}}" alt="" width="10">

@@ -49,13 +49,13 @@
         <img class="img-for-mobile" src="{{asset('images/img_section_tw_mobile.svg')}}" alt="">
         <img class="img-for-ipad" src="{{asset('images/img_section_tw_ipad.svg')}}" alt="">
         <div class="scn-tw-text absolute">
-          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-up" data-aos-duration="800">Cashtree :</h3>
+          <h3 class="fw-400 fp-purple fs-46" data-aos="fade-up" data-aos-duration="800">Cashtree :</h3>
           <h3 class="fp-purple fs-46" data-aos="fade-up" data-aos-duration="800">@lang('lang.the_gate')</h3>
           <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-up" data-aos-duration="800">@lang('lang.adoption')</h3>
           <div class="ct-p" data-aos="fade-up" data-aos-duration="800">
-            <p class="fp-black fw-300 w-40">@lang('lang.ct_bv')</p>
+            <p class="fp-black fw-400 w-40">@lang('lang.ct_bv')</p>
           </div>
-          <h6 class="fw-300 fp-purple fs-20 mtop-60" data-aos="fade-up" data-aos-duration="800">@lang('lang.through')</h6>
+          <h6 class="fw-400 fp-purple fs-20 mtop-60" data-aos="fade-up" data-aos-duration="800">@lang('lang.through')</h6>
           <h4 class="fp-purple fs-36 w-65" data-aos="fade-up" data-aos-duration="800">@lang('lang.be_gate')</h4>
         </div>
       </div>
@@ -66,14 +66,14 @@
         <img class="img-for-mobile" src="{{asset('images/img_section_ctt_mobile.svg')}}" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
         <img class="img-for-ipad" src="{{asset('images/img_section_ctt_ipad.svg')}}" alt="" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-purple fs-46" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.what_is')</h3>
+          <h3 class="fw-400 fp-purple fs-46" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.what_is')</h3>
           <h3 class="fp-purple fs-46 mbottom-15" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctoken_ctt')</h3>
           <div class="ct-p">
-            <p class="fp-black fw-300 w-40" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctt_new')</p>             
+            <p class="fp-black fw-400 w-40" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctt_new')</p>             
           </div>
         </div>
         <div class="container-btn">
-          <a href="{{asset('whitepaper/CTT-Whitepaper.pdf')}}" class="btn-download disabled mright-20"  data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.dw_wp')</a>
+          <a href="/download/whitepaper" class="btn-download mright-20" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.dw_wp')</a>
         </div>
       </div>
     </section>
@@ -81,7 +81,7 @@
     <section id="how-to-earn" data-aos="fade-down" data-aos-duration="800">
       <div class="centered-content">
         <h3 class="fp-purple fs-36 mbottom-15">@lang('lang.how_to')</h3>
-        <h3 class="fw-300 fp-purple fs-46 mbottom-15">@lang('lang.th_ctt_app')</h3>
+        <h3 class="fw-400 fp-purple fs-46 mbottom-15">@lang('lang.th_ctt_app')</h3>
         <div class="row mbottom-30 align-start">
           <div class="ct-p w-75">
             <p>@lang('lang.user_can')</p>
@@ -94,7 +94,7 @@
           </div>
         </div>
         <div class="border-bottom mbottom-30"></div>
-        <h3 class="fw-300 fp-purple fs-46 mbottom-15">@lang('lang.dep_on')</h3>
+        <h3 class="fw-400 fp-purple fs-46 mbottom-15">@lang('lang.dep_on')</h3>
         <div class="ct-p mbottom-15 w-50">
           <p>@lang('lang.ctt_can')</p>
         </div>
@@ -159,7 +159,7 @@
     <section id="scn-token">
       <div class="container-section">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-white fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="1000">CTT <span class="fw-700">@lang('lang.token')</span></h3>
+          <h3 class="fw-400 fp-white fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="1000">CTT <span class="fw-700">@lang('lang.token')</span></h3>
           <div class="ct-p" data-aos="zoom-in" data-aos-duration="1000">
             <p class="fp-white w-60">@lang('lang.p_token')</p>
           </div>
@@ -318,7 +318,7 @@
 
     <section id="scn-roadmap">
       <div class="container-section">
-        <h3 class="fw-300 fp-white fs-46 mbottom-15">Dev. <span class="fw-700">Roadmap</span></h3>
+        <h3 class="fw-400 fp-white fs-46 mbottom-15">Dev. <span class="fw-700">Roadmap</span></h3>
         <img class="w-100 d-block m-auto roadmap-desk" src="{{asset('images/ctt_roadmap.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
         <img class="w-100 d-block m-auto roadmap-mobile" src="{{asset('images/ctt_roadmap_mobile.svg')}}" alt="" data-aos="zoom-in" data-aos-duration="1000">
       </div>
@@ -329,7 +329,7 @@
         <img class="absolute eco-logo" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem.svg')}}" alt="">
         <img class="img-for-mobile" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem_mobile.svg')}}" alt="">
         <div class="scn-tw-text">
-          <h3 class="fw-300 fp-purple fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="300">CTT <span class="fw-700">Ecosystem</span></h3>
+          <h3 class="fw-400 p-purple fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="300">CTT <span class="fw-700">Ecosystem</span></h3>
         <div>
         <div class="d-flex mtop-40 eco-list relative" data-aos="fade-up" data-aos-duration="300">
           <div class="col-3">
@@ -371,6 +371,7 @@
             <li><a target="blank" href="https://instagram.com/cashtreetoken?igshid=NDc0ODY0MjQ="><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://www.facebook.com/cashtreetoken/"><img src="{{asset('images/fb_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://twitter.com/Cashtree_Token?t=a3tGLktPmSRfNYWgcs2NcQ&s=09"><img src="{{asset('images/tw_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://www.tiktok.com/@cashtreetoken"><img src="{{asset('images/tiktok_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://t.me/CashtreeToken"><img src="{{asset('images/tel_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://medium.com/@CashtreeToken "><img src="{{asset('images/med_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://discord.gg/RPcAXXSKEY"><img src="{{asset('images/dc_community.svg')}}" alt=""></a></li>
@@ -466,28 +467,6 @@
               </div>
               <div class="elips absolute">
                 <img src="{{asset('images/robin.webp')}}" alt="">
-              </div>
-            </div>
-            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-              <div class="top-card"></div>
-              <div class="body-card">
-                <h5>Head of Marketing</h5>
-                <h4>Anynda</h4>
-                <ul>
-                  <li>Associate of Broadcasting - University of Indonesia </li>
-                  <li>
-                    <div>
-                      <p>Six Dimensions</p>
-                      <p>Cosmopolitan Magazine</p>
-                      <p>Matari Advertising</p>
-                      <p>JakJazz International Festival</p>
-                    </div>
-                  </li>
-                  <li>10+ years of experience in creative industry,  assisting global brands integrated campaigns</li>
-                </ul>
-              </div>
-              <div class="elips absolute">
-                <img src="{{asset('images/anynda.webp')}}" alt="">
               </div>
             </div>
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
@@ -735,24 +714,6 @@
               </div>
               <div class="elips absolute">
                 <img src="{{asset('images/nanda.webp')}}" alt="">
-              </div>
-            </div>
-            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-              <div class="top-card"></div>
-              <div class="body-card">
-                <h5>Business Advisor</h5>
-                <h4>Khrisna Ramachandra</h4>
-                <ul>
-                  <li>Founder & Chairman, Digital Insights</li>
-                  <li>Global Head of Fintech / Blockchain & Digitalisation</li>
-                  <li>Ex-Chairman, Selvam LLC</li>
-                  <li>Immediate Past Chairman & Managing Director of Duane Morris & Selvam LLP (Singapore, Myanmar, Sri Lanka)</li>
-                  <li>Senior Advisor of Global Blockchain Foundation</li>
-                  <li>Blockchain Expert Speaker of World Knowledge Forum</li>
-                </ul>
-              </div>
-              <div class="elips absolute">
-                <img src="{{asset('images/khrisna.webp')}}" alt="">
               </div>
             </div>
           </div>
