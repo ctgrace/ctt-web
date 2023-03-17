@@ -24,7 +24,7 @@ return [
     'through' => 'Melalui Cashtree Blockchain Projek,',
     'be_gate' => 'Cashtree berkomitmen untuk menjadi gerbang untuk adaptasi kripto di Indonesia.',
     'what_is' => 'Apa itu :',
-    'ctoken_ctt' => 'Token Cashtree ‘CTT’',
+    'ctoken_ctt' => 'Token Cashtree "CTT"',
     'ctt_new' => 'Token Cashtree (CTT) adalah insentif baru yang dapat digunakan di dalam aplikasi Cashtree dan Ekosistem Bisnis Cashtree. Token Cashtree akan tersedia bersamaan dengan penggunaan Cashtree Poin;
                 sebuah insentif untuk para pengguna Cashtree yang saat ini tersedia di dalam aplikasi Cashtree dan dapat ditukarkan dengan berbagai hadiah di dalam aplikasi Cashtree ; selama masa transisi, dan  nantinya Token Cashtree akan diimplementasikan sepenuhnya sebagai satu-satunya reward di dalam Cashtree. 
                 Selaras dengan misi dari Cashtree untuk menjadi “pintu gerbang” dalam adopsi kripto di Indonesia, kami juga ingin menghadirkan berbagai benefit dari kripto dan mewujudkan demokratisasi ekonomi bagi seluruh pengguna. Implementasi Token Cashtree (CTT) nantinya akan memperkenalkan berbagai layanan dan 
