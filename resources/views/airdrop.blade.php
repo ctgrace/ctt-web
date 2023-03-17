@@ -10,13 +10,13 @@
                     <h1 class="fp-purple fw-400 fs-46">Cashtree Token (CTT) <br><b class="fw-700">@lang('lang.ad_p1')</b></h1>
                     <div class="text-airdrop">
                         @lang('lang.t_airdrop1')
-                        <br>
-                        @lang('lang.t_airdrop2')
+                        <br><br>
+                        <div class="fp-purple fw-700 fs-20">@lang('lang.t_airdrop2')</div>
                         <br>
                         @lang('lang.t_airdrop3')
-                        <br>
+                        <br><br>
                         @lang('lang.t_airdrop4')
-                        <br>
+                        <br><br>
                         @lang('lang.t_airdrop5')
                         <br>
                     </div>
@@ -25,7 +25,7 @@
                     <img class="w-100 mtop-30 mbottom-30" src="{{asset('images/ilustration-airdrop.png')}}" alt="">
                 </div>
             </div>
-            <div class="d-flex align-center justify-between">
+            <div class="d-flex align-center justify-between mtop-10 mbottom-30">
                 <div class="w-55">
                     <div class="text-airdrop">
                         @lang('lang.t_airdrop6')
@@ -39,12 +39,12 @@
                 </div>
                 <div class="ct-user w-45">
                     <span>@lang('lang.t_airdropbtn')<br><b>@lang('lang.t_airdropid')</b></span>
-                    <a href="https://play.google.com/store/apps/details?id=com.vitiglobal.cashtree&pli=1">
-                        <button>@lang('lang.download_ct')</button>
+                    <a class="pointer" target="blank" href="https://play.google.com/store/apps/details?id=com.vitiglobal.cashtree&pli=1">
+                        <button class="pointer">@lang('lang.download_ct')</button>
                     </a>
                 </div>
             </div>
-            <div class="d-flex align-center justify-between">
+            <div class="d-flex align-center justify-between mbottom-45">
                 <div class="w-45">
                     <div class="text-airdrop">
                         @lang('lang.t_airdrop10')
@@ -56,20 +56,21 @@
                 </div>
                 <div class="w-55 ct-user">
                     <span>@lang('lang.t_airdropbtn')<br><b>@lang('lang.t_airdropglobal')</b></span>
-                    <a href="https://gleam.io/bQ88Z/crypto-airdrop-cashtree-token">
-                        <button>@lang('lang.event_airdrop')</button>
+                    <a class="pointer" target="blank" href="https://gleam.io/bQ88Z/crypto-airdrop-cashtree-token">
+                        <button class="pointer">@lang('lang.event_airdrop')</button>
                     </a>
                 </div>
             </div>
             <div class="padding-mobile">
-                <div class="text-airdrop">
+                <div class="text-airdrop mbottom-20">
                     @lang('lang.t_airdrop12')
                 </div>
-                <div class="text-airdrop">
+                <div class="text-airdrop mbottom-20">
                     @lang('lang.t_airdrop13')
                 </div>
-                <div class="text-airdrop">
-                    @lang('lang.t_airdrop14')
+                <div class="text-airdrop mbottom-20">
+                    <span class="fp-purple fw-700 fs-20">@lang('lang.disclaimer')</span>
+                    <span class="italic">@lang('lang.t_airdrop14')</span>
                 </div>
                 <div class="text-airdrop">
                     @lang('lang.t_airdrop15')

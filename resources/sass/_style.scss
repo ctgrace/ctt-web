@@ -51,6 +51,9 @@
 .m-auto{
     margin: auto;
 }
+.italic{
+    font-style: italic;
+}
 
 .w-45{
     width: 45%;
@@ -1102,7 +1105,7 @@ header {
             align-items: center;
             width: 100%;
             counter-reset: step;
-            margin-top: 45px;
+            margin-top: 15px;
             li{
                 display: flex;
                 line-height: 30px;

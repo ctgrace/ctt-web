@@ -53,6 +53,10 @@
   margin: auto;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .w-45 {
   width: 45%;
 }
@@ -4616,7 +4620,7 @@ header .navbar .menu-mobile {
   align-items: center;
   width: 100%;
   counter-reset: step;
-  margin-top: 45px;
+  margin-top: 15px;
 }
 .container-fluid #scn-airdrop ol li {
   display: flex;
@@ -5146,7 +5150,7 @@ footer .footer-content ul li img {
     justify-content: center;
     width: 33.3333333333%;
   }
-  .container-fluid #scn-community .container-section .com-list ul li:first-child, .container-fluid #scn-community .container-section .com-list ul li:nth-child(2), .container-fluid #scn-community .container-section .com-list ul li:nth-child(3) {
+  .container-fluid #scn-community .container-section .com-list ul li:not(:last-child) {
     margin-bottom: 60px;
   }
   .container-fluid #scn-community .container-section .com-list ul li img {
