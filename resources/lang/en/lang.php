@@ -31,7 +31,7 @@ return [
     'th_ctt_app' => 'Through The Cashtree App',
     'user_can' => 'Users can earn Cashtree Token (CTT) from their participation in various activities and events on Cashtree Apps. So Cashtree Token (CTT) is Enganged-To-Earn model.',
     'dep_on' => 'Deposit on Exchange',
-    'ctt_can' => 'Cashtree Token (CTT) can also be acquired by buying the CTT on crypto exchanges that list Cashtree Token (CTT). Cashtree is aiming to be listed on official exchanges in Indonesia by the end of 2023.',
+    'ctt_can' => 'Cashtree Token (CTT) can also be acquired by buying the CTT on crypto exchanges that list Cashtree Token (CTT). Cashtree is aiming to be listed on global exchanges in 2023',
     'utility' => 'CTT Utility',
     'team' => 'CTT Team',
     'ctt_utility' => 'Cashtree Token (CTT) is a blockchain based rewards system that provides vast benefits towards users. Cashtree Token (CTT) will have 3 main utilities that users can enjoy thus increasing the benefits that Cashtree presents towards Users. These functionalities include staking feature, exchange token into vouchers, and token withdrawal through listed exchanges.',
