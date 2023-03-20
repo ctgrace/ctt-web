@@ -33,7 +33,7 @@ return [
     'th_ctt_app' => 'Melalui Aplikasi Cashtree',
     'user_can' => 'Para pengguna akan mendapatkan Token Cashtree (CTT) dari partisipasi mereka di dalam berbagai aktivitas dan event pada aplikasi Cashtree. Dapat dikatakan bahwa Token Cashtree (CTT) memiliki model engaged-to-earn (berpartisipasi dan mendapatkan hasil).',
     'dep_on' => 'Melalui Deposit / Penyetoran dari Pedagang Fisik Aset Kripto',
-    'ctt_can' => 'Token Cashtree (CTT) juga dapat diperoleh dengan membeli CTT di bursa kripto yang mencantumkan Token Cashtree (CTT). Cashtree bertujuan untuk terdaftar di bursa global pada tahun 2023',
+    'ctt_can' => 'Token Cashtree (CTT) juga dapat diperoleh dengan membeli CTT di bursa kripto yang mencantumkan Token Cashtree (CTT). Cashtree bertujuan agar CTT terdaftar di bursa global pada tahun 2023.',
     'utility' => 'Kegunaan CTT',
     'team' => 'Tim CTT',
     'ctt_utility' => 'Token Cashtree (CTT) adalah sistem hadiah berbasis blockchain yang memiliki berbagai benefit untuk penggunanya. Token Cashtree (CTT) akan memiliki 3 fungsi utama yang dapat dinikmati oleh para pengguna. Beberapa fungsi yang ditawarkan meliputi fitur staking, penukaran Token menjadi berbagai voucher, serta penarikan Token untuk dijual di pedagang fisik aset kripto terdaftar di Indonesia.',
