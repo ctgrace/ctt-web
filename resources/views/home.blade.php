@@ -281,7 +281,7 @@
               </tr>
               <tr class="dist-token">
                   <td>(Ecosystem) Marketing</td>
-                  <td>6 Months Upfront Lockup</td>
+                  <td>No Lockup</td>
                   <td>Monthly Distribution across 24 months</td>
                   <td>10%</td>
                   <td>500.000.000</td>
