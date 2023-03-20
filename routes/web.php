@@ -27,7 +27,7 @@ Route::get('/airdrop', function () {
 });
 
 Route::get('/download/whitepaper', function () {
-    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_rev_060323-compressed.pdf";
+    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_rev_200323-compressed.pdf";
     $headers = array(
               'Content-Type: application/pdf',
             );
