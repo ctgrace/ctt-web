@@ -27,12 +27,12 @@ Route::get('/airdrop', function () {
 });
 
 Route::get('/download/whitepaper', function () {
-    $file= public_path(). "/whitepaper/Cashtree_Whitepaper_rev_200323-compressed.pdf";
+    $file= public_path(). "/whitepaper/Cashtree-Whitepaper-2023.pdf";
     $headers = array(
               'Content-Type: application/pdf',
             );
 
-    return Response::download($file, 'Cashtree_Whitepaper.pdf', $headers);
+    return Response::download($file, 'Cashtree-Whitepaper-2023.pdf', $headers);
 });
 
 Route::get('/policy', function () {
