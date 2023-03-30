@@ -141,8 +141,8 @@
           </div>
         </div>
         <div class="d-flex align-center">
-          <div class="fp-white fw-700 mright-20 copyright">©2022 - Cashtree. All right reserved</div>
-          <a class="fp-white fw-700 mright-20 policy pointer" href="/policy">Privacy Policy</a>
+          <div class="fp-white fw-700 mright-20 copyright">©2023 - Cashtree. All right reserved</div>
+          <div class="fp-white fw-700 mright-20 policy">Privacy Policy</div>
           <ul>
             <li><a target="blank" href="https://www.instagram.com/cashtreetoken"><img src="{{asset('images/ft_ctt_ig.svg')}}" alt=""></a></li>
             {{-- <li><a target="blank" href="#"><img src="{{asset('images/ft_ctt_yt.svg')}}" alt=""></a></li> --}}
