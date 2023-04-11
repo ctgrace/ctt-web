@@ -72,7 +72,7 @@ return [
     't_airdrop14' => 'Konten ini tidak dimaksudkan untuk memberikan nasihat keuangan. Informasi yang diberikan dalam konten ini hanya untuk tujuan pendidikan dan informasi dan tidak boleh dianggap sebagai pengganti nasihat keuangan profesional. Investor harus melakukan penelitian dan analisis mereka sendiri sebelum membuat keputusan investasi apa pun. Investasi Cryptocurrency adalah investasi berisiko tinggi dan dapat mengakibatkan kerugian finansial yang signifikan. Oleh karena itu, investor harus mempertimbangkan tujuan investasi, toleransi risiko, dan situasi keuangan mereka dengan hati-hati sebelum berinvestasi dalam cryptocurrency apa pun. Penulis konten ini tidak bertanggung jawab atas kerugian, kerusakan, atau biaya yang ditanggung oleh orang atau badan mana pun sebagai akibat dari informasi yang diberikan dalam konten ini.',
     'join_airdrop' => 'Ikuti Event Airdrop!',
     't_airdrop15' => 'Suplai Maks: 5.000.000.000 CTT',
-    't_airdrop16' => 'Jaringan : Polygon MATIC',
+    't_airdrop16' => 'Jaringan : Arbitrum',
     't_airdrop17' => 'Peluncuran : TBA',
     't_airdropbtn' => 'Melalui Proyek Blockchain Cashtree,',
     't_airdropid' => 'Untuk Pengguna Indonesia',

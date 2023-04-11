@@ -69,7 +69,7 @@ return [
     't_airdrop14' => 'This content is not intended to provide financial advice. The information provided in this content is for educational and informational purposes only and should not be considered as a substitute for professional financial advice. Investors should conduct their own research and analysis before making any investment decisions. Cryptocurrency investment is a high-risk investment and may result in significant financial loss. Therefore, investors should carefully consider their investment objectives, risk tolerance, and financial situation before investing in any cryptocurrency. The author of this content shall not be held responsible for any losses, damages, or expenses incurred by any person or entity as a result of the information provided in this content.',
     'join_airdrop' => 'Join Airdrop Event!',
     't_airdrop15' => 'Max Supply : 5,000,000,000 CTT',
-    't_airdrop16' => 'Networks : Polygon MATIC',
+    't_airdrop16' => 'Networks : Arbitrum',
     't_airdrop17' => 'Launch : TBA',
     't_airdropbtn' => 'Through the Cashtree blockchain project,',
     't_airdropid' => 'For Indonesia User',
