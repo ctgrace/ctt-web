@@ -7,6 +7,14 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BVHKF2V9VT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BVHKF2V9VT');
+    </script>
     <link rel="icon" href="{{url('favicon.jpg')}}">
     <link rel="stylesheet" href="{{mix('css/app.css')}}">
     <link rel="preconnect" href="https://fonts.googleapis.com">

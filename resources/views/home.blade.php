@@ -240,7 +240,7 @@
               <tr class="dist-token">
                 <td>Public Sale</td>
                 <td>No Lockup</td>
-                <td>No Lockup</td>
+                <td>No distribution until new exchange listing</td>
                 <td>5%</td>
                 <td>250.000.000</td>
               </tr>
@@ -253,7 +253,7 @@
               </tr>
               <tr class="dist-token">
                 <td>Team</td>
-                <td>18 Months Upfront Lockup</td>
+                <td>6 Months Upfront Lockup</td>
                 <td>Monthly Distribution Across 36 months</td>
                 <td>10%</td>
                 <td>500.000.000</td>
@@ -368,9 +368,9 @@
         <div class="com-list mtop-40">
           <h4 class="fp-purple fs-20 text-center mbottom-30">Here are the  official community channels for Cashtree Token Project</h4>
           <ul class="d-flex align-center justify-between">
-            <li><a target="blank" href="https://instagram.com/cashtreetoken?igshid=NDc0ODY0MjQ="><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
-            <li><a target="blank" href="https://www.facebook.com/cashtreetoken/"><img src="{{asset('images/fb_community.svg')}}" alt=""></a></li>
-            <li><a target="blank" href="https://twitter.com/Cashtree_Token?t=a3tGLktPmSRfNYWgcs2NcQ&s=09"><img src="{{asset('images/tw_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://instagram.com/cashtreetoken"><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://www.facebook.com/cashtreetoken"><img src="{{asset('images/fb_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://twitter.com/Cashtree_Token"><img src="{{asset('images/tw_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://www.tiktok.com/@cashtreetoken"><img src="{{asset('images/tiktok_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://t.me/CashtreeToken"><img src="{{asset('images/tel_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://medium.com/@CashtreeToken "><img src="{{asset('images/med_community.svg')}}" alt=""></a></li>
@@ -539,9 +539,9 @@
                 <h5>Advisor</h5>
                 <h4>Alexander Markl</h4>
                 <ul>
-                  <li>Co-Founder SW DAO</li>
-                  <li>Co-Founder Nucleon Finance AG</li>
-                  <li>10 years of experience Developer</li>
+                  <li>Current co-founder, CEO of Sun Labs, Digital asset management solution provider</li>
+                  <li>Prev. Co-Founder, CIO of SW Capital; crypto quant trading firm ($50m AUM)</li>
+                  <li>12 years experience in digital product engineering, 6 years in quantitative digital asset trading</li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -552,10 +552,27 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
+                <h4>Keebeom Kim</h4>
+                <ul>
+                  <li>Current CTO of Kakao Entertainment, CEO of Supercomix</li>
+                  <li>Founded Valuepotion, a data-driven marketing/advertisement platform startup, in 2015 and sold the business in 2017</li>
+                  <li>20+ years of engineering and platform business not only in Korea, but also in South East Asia</li>
+                </ul>
+              </div>
+              <div class="elips absolute">
+                <img src="{{asset('images/kebeeom.webp')}}" alt="">
+              </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div class="top-card"></div>
+              <div class="body-card">
+                <h5>Advisor</h5>
                 <h4>Jenny</h4>
                 <ul>
-                  <li>Co Founder SW DAO</li>
-                  <li>Business Development</li>
+                  <li>Current co-Founder, CFO of Sun Labs, Digital asset management solution provider</li>
+                  <li>Prev. Co-founder of crypto quant trading firm SW Capital, overseeing quantitative strategy research</li>
+                  <li>6 years experience in digital asset trading</li>
+                  <li>Expert in quantitative analysis, econometrics, data science</li>
                 </ul>
               </div>
               <div class="elips absolute">
@@ -568,8 +585,12 @@
                 <h5>Advisor</h5>
                 <h4>Heuibae Kim</h4>
                 <ul>
-                  <li>CEO & Founder SOMESING</li>
-                  <li>Blockchain based karaoke apps on Klaytn with more than 1.5M users and 10M TX</li>
+                  <li>
+                    <div>
+                      <p>CEO & Founder SOMESING</p>
+                      <p>Blockchain based karaoke apps on Klaytn with more than 1.5M users and 10M TX</p>
+                    </div>
+                  </li>
                   <li>Solid business relationships with major mobile companies in Korea</li>
                   <li>7+ years of experience, comprehensive technical know-how and expertise in mobile “Singing Content Platform” and blockchain Industry</li>
                 </ul>
@@ -706,10 +727,14 @@
                 <ul>
                   <li>Former CMO of Tokocrypto</li>
                   <li>20+ years experience in advertising, communication, and digital marketing</li>
-                  <li>Former Director of Edelman Digital</li>
-                  <li>Former CEO XM Gravity</li>
-                  <li>Former APAC CEO of Mirum Agency</li>
-                  <li>Former Strategic Advisor of Telkomsel</li>
+                  <li>
+                    <div>
+                      <p>Former Director of Edelman Digital</p>
+                      <p>Former CEO XM Gravity</p>
+                      <p>Former APAC CEO of Mirum Agency</p>
+                      <p>Former Strategic Advisor of Telkomsel</p>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div class="elips absolute">
