@@ -183,14 +183,15 @@
                   <p>Team 10%</p>
                 </li>
                 <li>
-                  <div class="adv"></div>
-                  <p>Advisors 2%</p>
+                  <div class="prtnr"></div>
+                  <p>Partner 8%</p>
                 </li>
               </ul>
               <ul>
+                
                 <li>
-                  <div class="prtnr"></div>
-                  <p>Partner 8%</p>
+                  <div class="adv"></div>
+                  <p>Advisors 2%</p>
                 </li>
                 <li>
                   <div class="st-in"></div>
@@ -198,7 +199,7 @@
                 </li>
                 <li>
                   <div class="p2e"></div>
-                  <p>Ecosystem (Marketing) 30%</p>
+                  <p>Ecosystem (Marketing) 10%</p>
                 </li>
                 <li>
                   <div class="ld"></div>
@@ -368,13 +369,13 @@
         <div class="com-list mtop-40">
           <h4 class="fp-purple fs-20 text-center mbottom-30">Here are the  official community channels for Cashtree Token Project</h4>
           <ul class="d-flex align-center justify-between">
-            <li><a target="blank" href="https://instagram.com/cashtreetoken"><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://www.instagram.com/cashtreetoken"><img src="{{asset('images/ig_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://www.facebook.com/cashtreetoken"><img src="{{asset('images/fb_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://twitter.com/Cashtree_Token"><img src="{{asset('images/tw_community.svg')}}" alt=""></a></li>
-            <li><a target="blank" href="https://www.tiktok.com/@cashtreetoken"><img src="{{asset('images/tiktok_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://t.me/CashtreeToken"><img src="{{asset('images/tel_community.svg')}}" alt=""></a></li>
-            <li><a target="blank" href="https://medium.com/@CashtreeToken "><img src="{{asset('images/med_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://medium.com/@CashtreeToken"><img src="{{asset('images/med_community.svg')}}" alt=""></a></li>
             <li><a target="blank" href="https://discord.gg/RPcAXXSKEY"><img src="{{asset('images/dc_community.svg')}}" alt=""></a></li>
+            <li><a target="blank" href="https://www.tiktok.com/@cashtreetoken"><img src="{{asset('images/tiktok_community.svg')}}" alt=""></a></li>
           </ul>
         </div>
       </div>
@@ -395,7 +396,7 @@
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
-                <h5>Founder & CEO</h5>
+                <h5>Founder & Co-CEO</h5>
                 <h4>Dallen Kim</h4>
                 <ul>
                   <li>Co-Founder & COO of Neoplea</li>
@@ -439,7 +440,7 @@
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
-                <h5>CTO</h5>
+                <h5>Co-CEO & CTO</h5>
                 <h4>Agust Tampubolon</h4>
                 <ul>
                   <li>Software Architecture & Senior Engineer</li>
@@ -497,8 +498,12 @@
                   <li>B.S Informatics Engineering</li>
                   <li>PT. ARC Indonesia</li>
                   <li>PT. HDI Indonesia</li>
-                  <li>PT. Cashtree For Indonesia - Senior IT Manager & Backend Programmer</li>
-                  
+                  <li>
+                    <div>
+                      <p>PT. Cashtree For Indonesia</p>
+                      <p>Senior IT Manager & Backend Programmer</p>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div class="elips absolute">
