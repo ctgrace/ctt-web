@@ -10,7 +10,7 @@
         <div class="row absolute mtop-15 option-button">
           {{-- <a href="/download/whitepaper" class="btn-download mright-20">@lang('lang.dw_wp')</a> --}}
           {{-- <a class="btn-download mright-20 disabled">@lang('lang.dw_wp')</a> --}}
-          <button class="btn-pink disabled">@lang('lang.buy_ctt')</button>
+          {{-- <button class="btn-pink disabled">@lang('lang.buy_ctt')</button> --}}
         </div>
         <div class="row ornament absolute">
           <hr class="mright-10">
@@ -151,7 +151,7 @@
           <div class="ct-p w-50 mtop-45 mbottom-45">
             <p>@lang('lang.ctt_priority')</p>
           </div>
-          <button class="btn-buy disabled">@lang('lang.buy_ctt')</button>
+          {{-- <button class="btn-buy disabled">@lang('lang.buy_ctt')</button> --}}
         </div>
       </div>
     </section>
