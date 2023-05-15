@@ -8,7 +8,7 @@
         <h2 class="tle-web-1">@lang('lang.tle_web_1')</h2>
         <h1 class="tle-web-2">@lang('lang.tle_web_2')</h1>
         <div class="row absolute mtop-15 option-button">
-          <a href="/download/whitepaper" class="btn-download mright-20">@lang('lang.dw_wp')</a>
+          {{-- <a href="/download/whitepaper" class="btn-download mright-20">@lang('lang.dw_wp')</a> --}}
           {{-- <a class="btn-download mright-20 disabled">@lang('lang.dw_wp')</a> --}}
           <button class="btn-pink disabled">@lang('lang.buy_ctt')</button>
         </div>
@@ -72,9 +72,9 @@
             <p class="fp-black fw-400 w-40" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.ctt_new')</p>             
           </div>
         </div>
-        <div class="container-btn">
+        {{-- <div class="container-btn">
           <a href="/download/whitepaper" class="btn-download mright-20" data-aos="fade-right" data-aos-offset="150" data-aos-easing="ease-in-sine">@lang('lang.dw_wp')</a>
-        </div>
+        </div> --}}
       </div>
     </section>
 
