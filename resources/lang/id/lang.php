@@ -53,7 +53,7 @@ return [
     'active_lang' => 'ID',
     'cashtree' => 'Cashtree adalah platform mobile advertising berbasis aplikasi reward yang bertujuan untuk menjadi media mobile paling berpengaruh yang menjangkau masyarakat kelas menengah Indonesia dan telah dipasang oleh lebih dari 10 juta pengguna oleh masyarakat Indonesia.',
     'hotdeal' => 'Hotdeal adalah platform baru yang memberikan pengalaman baru dalam berbelanja, hadir sebagai platform e-commerce baru yang memanfaatkan video sebagai komunikasi utama kepada audiensnya. Menyediakan video shopping yang imersif untuk menyempurnakan semua sisi produk yang dapat menarik audiens dan mendorong keinginan mereka untuk berbelanja lebih banyak lagi.',
-    'lasan' => 'Lagi Santai adalah tempat baru, rumah baru bagi pembuat konten, pendongeng, ahli dari berbagai bidang bahkan untuk pendatang baru. Ini adalah tempat di mana semua peserta dapat bertukar informasi, berinteraksi, berbagi karya dan ide untuk hadir ke dunia dan menginspirasi jiwa di luar sana.',
+    'lasan' => 'Lagsan adalah tempat baru, rumah baru bagi pembuat konten, pendongeng, ahli dari berbagai bidang bahkan untuk pendatang baru. Ini adalah tempat di mana semua peserta dapat bertukar informasi, berinteraksi, berbagi karya dan ide untuk hadir ke dunia dan menginspirasi jiwa di luar sana.',
     'ad_p1' => 'Airdrop Fase 1',
     't_airdrop1' => 'Cashtree Token Airdrop Fase 1 sudah DIMULAI! Bergabunglah dengan airdrop dan dapatkan hadiah senilai CTT 900.000',
     't_airdrop2' => 'Tentang Cashtree',
@@ -78,5 +78,6 @@ return [
     't_airdropid' => 'Untuk Pengguna Indonesia',
     't_airdropglobal' => 'Untuk Pengguna Global',
     'download_ct' => 'Unduh Cashtree',
-    'event_airdrop' => 'Halaman Event Airdrop'
+    'event_airdrop' => 'Halaman Event Airdrop',
+    'ctt_ecosystem' => 'Ekosistem CTT'
 ];

@@ -294,7 +294,7 @@
         <img class="absolute eco-logo" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem.svg')}}" alt="">
         <img class="img-for-mobile" data-aos="fade-up" data-aos-duration="800" src="{{asset('images/icon_ecosystem_mobile.svg')}}" alt="">
         <div class="scn-tw-text">
-          <h3 class="fw-400 p-purple fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="300">CTT <span class="fw-700">Ecosystem</span></h3>
+          <h3 class="fw-700 fp-purple fs-46 mbottom-15" data-aos="zoom-in" data-aos-duration="300">@lang('lang.ctt_ecosystem')</h3>
         <div>
         <div class="d-flex mtop-40 eco-list relative" data-aos="fade-up" data-aos-duration="300">
           <div class="col-3">
@@ -317,12 +317,12 @@
           </div>
           <div class="col-3">
             <div>
-              <img width="130" src="{{asset('images/logo_lasan.svg')}}" alt="">
+              <img width="200" src="{{asset('images/lagsan.png')}}" alt="">
               <div class="container-desc ct-p">
                 <p>@lang('lang.lasan')</p>
               </div>
             </div>
-            <a href="http://lagisantai.id" target="_blank"><button class="btn-pink">visit</button></a>
+            <a href="http://lagisantai.id" target="_blank"><button class="btn-pink disabled">coming soon</button></a>
           </div>
         </div>
       </div>
@@ -399,7 +399,7 @@
                   <h5>Co-CEO & CTO</h5>
                   <h4>Alexander Markl</h4>
                   <ul>
-                    <li>Leading Web3 transition of Cashtree across all verticals (business model, product, strategy</li>
+                    <li>Leading Web3 transition of Cashtree across all verticals (business model, product, strategy)</li>
                     <li>Current co-founder, CEO of Sun Labs, Digital asset management solution provider</li>
                     <li>Prev. Co-Founder, CIO of SW Capital; crypto quant trading firm ($50m AUM)</li>
                     <li>12 years experience in digital product engineering, 6 years in quantitative digital asset trading</li>
@@ -414,7 +414,7 @@
                 <div class="top-card"></div>
                 <div class="body-card">
                   <h5>CSO</h5>
-                  <h4>Jenny</h4>
+                  <h4>Jenny Ban</h4>
                   <ul>
                     <li>Current co-Founder, CFO of Sun Labs, Digital asset management solution provider</li>
                     <li>Prev. Co-founder of crypto quant trading firm SW Capital, overseeing quantitative strategy research</li>
@@ -468,7 +468,7 @@
                   </ul>
                 </div>
                 <div class="elips absolute">
-                  <img src="{{asset('images/robin.webp')}}" alt="">
+                  <img src="{{asset('images/will.webp')}}" alt="">
                 </div>
               </div>
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
