@@ -347,9 +347,8 @@
         #scn-roadmap{
             padding: 0 0 45px;
             h3{
-                padding-top: 20px;
-                padding-left: 30px;
-                margin: 0!important;
+                padding: 45px 0 30px 20px;
+                margin: 0;
             }
             .roadmap-desk{
                 display: none;
@@ -820,6 +819,28 @@
                         &.absolute{
                             width: 400px;
                             top: -60px;
+                        }
+                    }
+                }
+                table{
+                    tr{
+                        &.allocation-total{
+                            td{
+                                .total{
+                                    padding: 8px 15px;
+                                    .amount{
+                                        display: flex;
+                                        width: auto;
+                                        text-align: left;
+                                        margin-right: 0;
+                                        div{
+                                            &:last-child{
+                                                margin-left: 10px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
