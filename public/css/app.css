@@ -4212,10 +4212,13 @@ header .navbar .menu-mobile {
   background-size: cover;
 }
 .container-fluid #scn-token .container-section .pie-chart .token-table {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   display: flex;
   align-items: center;
   background-color: #6020A5;
-  padding: 45px;
+  padding: 25px;
   box-sizing: border-box;
   border-radius: 15px;
   margin-top: 30px;
@@ -4225,43 +4228,33 @@ header .navbar .menu-mobile {
   align-items: center;
   color: #ffffff;
   font-weight: 300;
+}
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li:not(.container-fluid #scn-token .container-section .pie-chart .token-table ul li:last-child) {
   margin-bottom: 15px;
 }
 .container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
-  width: 40px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 15px;
   margin-right: 20px;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.pv-sale {
-  background-color: #FA2D68;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.private-sale {
+  background-color: #467be8;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.pb-sale {
-  background-color: #DD5034;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.foundation {
+  background-color: #7b6dfa;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.fndt {
-  background-color: #FA8624;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.team {
+  background-color: #6040ca;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.tm {
-  background-color: #E1BF2A;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.advisor {
+  background-color: #9752e2;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.adv {
-  background-color: #6ABEDD;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.user-benefit {
+  background-color: #e565d3;
 }
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.prtnr {
-  background-color: #714BF3;
-}
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.st-in {
-  background-color: #A51CA5;
-}
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.p2e {
-  background-color: #A81B78;
-}
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.ld {
-  background-color: #27CD7E;
-}
-.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.rnc {
-  background-color: #9BDC2F;
+.container-fluid #scn-token .container-section .pie-chart .token-table ul li div.ecosystem {
+  background-color: #3ac9d5;
 }
 .container-fluid #scn-token .container-section .pie-chart img.absolute {
   top: -155px;
@@ -4276,67 +4269,76 @@ header .navbar .menu-mobile {
   margin-top: 2rem;
   border: none;
 }
-.container-fluid #scn-token .container-section table tr .description {
+.container-fluid #scn-token .container-section table tr .stage {
   background-color: #7733BF;
-  height: 11rem;
+  height: 7rem;
   width: 20rem;
   border-top-left-radius: 10px;
 }
+.container-fluid #scn-token .container-section table tr .time-lock {
+  background-color: #431475;
+  height: 3rem;
+  width: 15rem;
+}
 .container-fluid #scn-token .container-section table tr .vesting {
   background-color: #431475;
-  height: 6rem;
+  height: 3rem;
   width: 30rem;
 }
-.container-fluid #scn-token .container-section table tr .token {
+.container-fluid #scn-token .container-section table tr .supply {
   background-color: #6020A5;
-  height: 11rem;
+  height: 7rem;
   width: 10rem;
 }
-.container-fluid #scn-token .container-section table tr .numb-token {
+.container-fluid #scn-token .container-section table tr .tokens {
   background: #7733BF;
   border-top-right-radius: 10px;
-  height: 11rem;
+  height: 7rem;
   width: 15rem;
 }
-.container-fluid #scn-token .container-section table tr .idt {
+.container-fluid #scn-token .container-section table tr .duration.--first {
   background-color: #A962F7;
+  height: 4rem;
 }
-.container-fluid #scn-token .container-section table tr .sdt {
+.container-fluid #scn-token .container-section table tr .duration,
+.container-fluid #scn-token .container-section table tr .frequency,
+.container-fluid #scn-token .container-section table tr .terms {
   background-color: #862FE5;
+  height: 4rem;
+  width: 10rem;
 }
-.container-fluid #scn-token .container-section table tr .idt,
-.container-fluid #scn-token .container-section table tr .sdt {
-  height: 5rem;
-  width: 15rem;
+.container-fluid #scn-token .container-section table tr .terms {
+  height: 3rem;
+  width: 10rem;
 }
-.container-fluid #scn-token .container-section table tr.dist-token {
+.container-fluid #scn-token .container-section table tr.ctt-allocation {
   height: 8rem;
   background: white;
 }
-.container-fluid #scn-token .container-section table tr.dist-token td {
+.container-fluid #scn-token .container-section table tr.ctt-allocation td {
   color: #464646;
   text-align: center;
   border-bottom: 1px solid #D9D9D9;
 }
-.container-fluid #scn-token .container-section table tr.dist-token td:not(.container-fluid #scn-token .container-section table tr.dist-token td:first-child) {
+.container-fluid #scn-token .container-section table tr.ctt-allocation td:not(.container-fluid #scn-token .container-section table tr.ctt-allocation td:first-child) {
   font-weight: 300;
 }
-.container-fluid #scn-token .container-section table tr.dist-token td:first-child, .container-fluid #scn-token .container-section table tr.dist-token td:last-child {
+.container-fluid #scn-token .container-section table tr.ctt-allocation td:first-child, .container-fluid #scn-token .container-section table tr.ctt-allocation td:last-child {
   font-weight: 700;
 }
-.container-fluid #scn-token .container-section table tr.dist-token.total {
+.container-fluid #scn-token .container-section table tr.allocation-total {
   position: relative;
   width: 100%;
   height: 0;
 }
-.container-fluid #scn-token .container-section table tr.dist-token.total td {
+.container-fluid #scn-token .container-section table tr.allocation-total td {
   background: white;
   width: 100%;
   position: absolute;
   padding: 2.5rem;
   box-sizing: border-box;
 }
-.container-fluid #scn-token .container-section table tr.dist-token.total td div {
+.container-fluid #scn-token .container-section table tr.allocation-total td .total {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -4346,6 +4348,11 @@ header .navbar .menu-mobile {
   box-sizing: border-box;
   border-radius: 30px;
   color: #fff;
+}
+.container-fluid #scn-token .container-section table tr.allocation-total td .total .amount {
+  width: 8rem;
+  text-align: center;
+  margin-right: 30px;
 }
 .container-fluid #scn-roadmap {
   padding: 0 0 120px;
@@ -4732,75 +4739,6 @@ header .navbar .menu-mobile {
   font-size: 13px;
   font-weight: 400;
   list-style-type: decimal;
-}
-.container-fluid .bg-section {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.container-fluid #team {
-  height: auto;
-  background-color: #37145C;
-  margin-top: 120px;
-}
-.container-fluid #team .w-8 {
-  width: 80% !important;
-}
-.container-fluid #team .m-auto {
-  margin: auto;
-}
-.container-fluid #team .d-flex {
-  display: flex;
-}
-.container-fluid #team .flex-column {
-  flex-direction: column;
-}
-.container-fluid #team .h-100 {
-  height: 100%;
-}
-.container-fluid #team .justify-center {
-  justify-content: center;
-}
-.container-fluid #team .ctt-team {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.container-fluid #team .ctt-team .team-card {
-  width: 390px;
-  height: 694px;
-  border-radius: 30px;
-  background-color: #3E1867;
-  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.1);
-}
-.container-fluid #team .ctt-team .team-card .top-card {
-  width: 390px;
-  height: 280px;
-  background-image: url("/images/bg-card.png");
-  background-size: cover;
-}
-.container-fluid #team .ctt-team .team-card .top-card .container-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-.container-fluid #team .ctt-team .team-card .top-card .container-img .images-card {
-  width: 190px;
-  height: 190px;
-  display: flex;
-  margin: auto;
-}
-.container-fluid #team .ctt-team .team-card .body-card {
-  color: #FFFFFF;
-}
-.container-fluid #team .ctt-team .team-card .body-card ul li {
-  font-size: 20px;
-  line-height: 32px;
 }
 
 .scroll-up {

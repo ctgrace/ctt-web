@@ -676,10 +676,11 @@ header {
         .container-section{
             .pie-chart{
                 .token-table{
+                    width: fit-content;
                     display: flex;
                     align-items: center;
                     background-color: #6020A5;
-                    padding: 45px;
+                    padding: 25px;
                     box-sizing: border-box;
                     border-radius: 15px;
                     margin-top: 30px;
@@ -689,41 +690,31 @@ header {
                             align-items: center;
                             color: #ffffff;
                             font-weight: 300;
-                            margin-bottom: 15px;
+                            &:not(&:last-child){
+                                margin-bottom: 15px;
+                            }
                             div{
-                                width: 40px;
-                                height: 20px;
+                                width: 25px;
+                                height: 25px;
                                 border-radius: 15px;
                                 margin-right: 20px;
-                                &.pv-sale{
-                                    background-color: #FA2D68;
+                                &.private-sale{
+                                    background-color: #467be8;
                                 }
-                                &.pb-sale{
-                                    background-color: #DD5034;
+                                &.foundation{
+                                    background-color: #7b6dfa;
                                 }
-                                &.fndt{
-                                    background-color: #FA8624;
+                                &.team{
+                                    background-color: #6040ca;
                                 }
-                                &.tm{
-                                    background-color: #E1BF2A;
+                                &.advisor{
+                                    background-color: #9752e2;
                                 }
-                                &.adv{
-                                    background-color:#6ABEDD;
+                                &.user-benefit{
+                                    background-color:#e565d3;
                                 }
-                                &.prtnr{
-                                    background-color: #714BF3;
-                                }
-                                &.st-in{
-                                    background-color: #A51CA5;
-                                }
-                                &.p2e{
-                                    background-color: #A81B78;
-                                }
-                                &.ld{
-                                    background-color: #27CD7E;
-                                }
-                                &.rnc{
-                                    background-color: #9BDC2F;
+                                &.ecosystem{
+                                    background-color: #3ac9d5;
                                 }
                             }
                         }
@@ -745,40 +736,51 @@ header {
                 margin-top: 2rem;
                 border: none;
                 tr{
-                    .description{
+                    .stage{
                         background-color: #7733BF; 
-                        height: 11rem; 
+                        height: 7rem; 
                         width: 20rem; 
                         border-top-left-radius: 10px;
                     }
-                    .vesting{
+                    .time-lock{
                         background-color: #431475; 
-                        height: 6rem;
-                        width: 30rem;
-                    }
-                    .token{
-                        background-color: #6020A5;
-                        height: 11rem; 
-                        width: 10rem; 
-                    }
-                    .numb-token{
-                        background: #7733BF; 
-                        border-top-right-radius: 10px;
-                        height: 11rem; 
-                        width: 15rem; 
-                    }
-                    .idt{
-                        background-color: #A962F7;
-                    }
-                    .sdt{
-                        background-color: #862FE5;;
-                    }
-                    .idt,
-                    .sdt{
-                        height: 5rem;
+                        height: 3rem;
                         width: 15rem;
                     }
-                    &.dist-token{
+                    .vesting{
+                        background-color:  #431475;
+                        height: 3rem;
+                        width: 30rem;
+                    }
+                    .supply{
+                        background-color: #6020A5;
+                        height: 7rem; 
+                        width: 10rem; 
+                    }
+                    .tokens{
+                        background: #7733BF; 
+                        border-top-right-radius: 10px;
+                        height: 7rem; 
+                        width: 15rem; 
+                    }
+                    .duration{
+                        &.--first{
+                            background-color: #A962F7;
+                            height: 4rem;
+                        }
+                    }
+                    .duration,
+                    .frequency,
+                    .terms{
+                        background-color: #862FE5;
+                        height: 4rem;
+                        width: 10rem;
+                    }
+                    .terms{
+                        height: 3rem;
+                        width: 10rem;
+                    }
+                    &.ctt-allocation{
                         height: 8rem; 
                         background: white;
                         td{
@@ -793,26 +795,31 @@ header {
                                 font-weight: 700;
                             }
                         }
-                        &.total{
-                            position: relative;
+                    }
+                    &.allocation-total{
+                        position: relative;
+                        width: 100%;
+                        height: 0;
+                        td{
+                            background: #ffff;
                             width: 100%;
-                            height: 0;
-                            td{
-                                background: #ffff;
+                            position: absolute;
+                            padding: 2.5rem;
+                            box-sizing: border-box;
+                            .total{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                background: #7733BF;
                                 width: 100%;
-                                position: absolute;
-                                padding: 2.5rem;
+                                padding: 8px 30px;
                                 box-sizing: border-box;
-                                div{
-                                    display: flex;
-                                    align-items: center;
-                                    justify-content: space-between;
-                                    background: #7733BF;
-                                    width: 100%;
-                                    padding: 8px 30px;
-                                    box-sizing: border-box;
-                                    border-radius: 30px;
-                                    color: #fff;
+                                border-radius: 30px;
+                                color: #fff;
+                                .amount{
+                                    width: 8rem;
+                                    text-align: center;
+                                    margin-right: 30px;
                                 }
                             }
                         }

@@ -167,47 +167,28 @@
             <div class="token-table">
               <ul class="mright-60">
                 <li>
-                  <div class="pv-sale"></div>
-                  <p>Private Sale 12%</p>
+                  <div class="private-sale"></div>
+                  <p>Private Sale 10%</p>
                 </li>
                 <li>
-                  <div class="pb-sale"></div>
-                  <p>Public Sale 5%</p>
+                  <div class="foundation"></div>
+                  <p>Foundation 10%</p>
                 </li>
                 <li>
-                  <div class="fndt"></div>
-                  <p>Foundation (Corporation) 10%</p>
-                </li>
-                <li>
-                  <div class="tm"></div>
+                  <div class="team"></div>
                   <p>Team 10%</p>
                 </li>
                 <li>
-                  <div class="prtnr"></div>
-                  <p>Partner 8%</p>
-                </li>
-              </ul>
-              <ul>
-                
-                <li>
-                  <div class="adv"></div>
-                  <p>Advisors 2%</p>
+                  <div class="advisor"></div>
+                  <p>Advisor 2%</p>
                 </li>
                 <li>
-                  <div class="st-in"></div>
-                  <p>Ecosystem (User Benefit) 30%</p>
+                    <div class="user-benefit"></div>
+                    <p>(Ecosystem) User Benefit 32%</p>
                 </li>
                 <li>
-                  <div class="p2e"></div>
-                  <p>Ecosystem (Marketing) 10%</p>
-                </li>
-                <li>
-                  <div class="ld"></div>
-                  <p>Liquidity 6%</p>
-                </li>
-                <li>
-                  <div class="rnc"></div>
-                  <p>Reserves & Contingency 7%</p>
+                    <div class="ecosystem"></div>
+                    <p>Ecosystem 36%</p>
                 </li>
               </ul>
             </div>
@@ -216,96 +197,79 @@
           <table>
               <thead>
                   <tr>
-                  <th class="description" rowspan="2">Description</th>
-                  <th class="vesting" colspan="2">Vesting Period</th>
-                  <th class="token" rowspan="3">Percentage</th>
-                  <th class="numb-token" rowspan="3">Number of Token</th>
+                    <th class="stage" rowspan="2">Stage</th>
+                    <th class="time-lock">Initial Time-lock</th>
+                    <th class="vesting" colspan="3">Vesting (Linear)</th>
+                    <th class="supply" rowspan="3">Supply %</th>
+                    <th class="tokens" rowspan="3">Tokens</th>
                   </tr>
                   <tr>
-                  <th class="idt">Initial<br>Distribution Terms</th>
-                  <th class="sdt">Subsequent<br>Distribution Terms</th>
-                  </tr>
-                  <tr style="height: 2rem;">
-                  <th class="bg-purple fs-12">Total Token Circulation</th>
-                  <th class="bg-purple" colspan="2">5,000,000,000</th>
+                    <th class="duration --first">Duration</th>
+                    <th class="frequency">Frequency</th>
+                    <th class="duration">Duration</th>
+                    <th class="terms">Terms</th>
                   </tr>
               </thead>
               <tbody>
-              <tr class="dist-token">
+              <tr class="ctt-allocation">
                 <td>Private Sale</td>
-                <td>18 Months Upfront Lockup</td>
-                <td>Monthly Distribution across 24 months</td>
-                <td>12%</td>
-                <td>600.000.000</td>
-              </tr>
-              <tr class="dist-token">
-                <td>Public Sale</td>
-                <td>No Lockup</td>
-                <td>No distribution until new exchange listing</td>
-                <td>5%</td>
-                <td>250.000.000</td>
-              </tr>
-              <tr class="dist-token">
-                <td>Foundation (Corporation)</td>
-                <td>18 Months Upfront Lockup</td>
-                <td>Monthly Distribution across 36 months</td>
+                <td>18 Months</td>
+                <td>Monthly</td>
+                <td>24</td>
+                <td>Months</td>
                 <td>10%</td>
                 <td>500.000.000</td>
               </tr>
-              <tr class="dist-token">
+              <tr class="ctt-allocation">
+                <td>Foundation</td>
+                <td>18 Months</td>
+                <td>Monthly</td>
+                <td>36</td>
+                <td>Months</td>
+                <td>10%</td>
+                <td>500.000.000</td>
+              </tr>
+              <tr class="ctt-allocation">
                 <td>Team</td>
-                <td>6 Months Upfront Lockup</td>
-                <td>Monthly Distribution Across 36 months</td>
+                <td>6 Months</td>
+                <td>Monthly</td>
+                <td>36</td>
+                <td>Months</td>
                 <td>10%</td>
                 <td>500.000.000</td>
               </tr>
-              <tr class="dist-token">
-                  <td>Partner</td>`
-                  <td>18 Months Upfront Lockup</td>
-                  <td>Monthly Distribution Across 24 months</td>
-                  <td>8%</td>
-                  <td>400.000.000</td>
+              <tr class="ctt-allocation">
+                  <td>Advisor</td>`
+                  <td>18 Months</td>
+                  <td>Monthly</td>
+                  <td>24</td>
+                  <td>Months</td>
+                  <td>2%</td>
+                  <td>100.000.000</td>
               </tr>
-              <tr class="dist-token">
-                <td>Advisor</td>
-                <td>18 Months Upfront Lockup</td>
-                <td>Monthly Distribution Across 24 months</td>
-                <td>2%</td>
-                <td>100.000.000</td>
-              </tr>
-              <tr class="dist-token">
+              <tr class="ctt-allocation">
                 <td>(Ecosystem) User Benefit</td>
-                <td>No Lockup</td>
-                <td>Monthly distribution across 60 months</td>
-                <td>30%</td>
-                <td>1.500.000.000</td>
+                <td>0 No Lockup</td>
+                <td>Monthly</td>
+                <td>60</td>
+                <td>Months</td>
+                <td>32%</td>
+                <td>1.600.000.000</td>
               </tr>
-              <tr class="dist-token">
-                  <td>(Ecosystem) Marketing</td>
-                  <td>No Lockup</td>
-                  <td>Monthly Distribution across 24 months</td>
-                  <td>10%</td>
-                  <td>500.000.000</td>
+              <tr class="ctt-allocation">
+                  <td>Ecosystem</td>
+                  <td>0 No Lockup</td>
+                  <td>initial release 5% + 36 </td>
+                  <td>60</td>
+                  <td>Months</td>
+                  <td>36%</td>
+                  <td>1.800.000.000</td>
               </tr>
-              <tr class="dist-token">
-                <td>Liquidity</td>
-                <td>No Lockup</td>
-                <td>No Lockup</td>
-                <td>6%</td>
-                <td>300.000.000</td>
-            </tr>
-              <tr class="dist-token">
-                <td>Reserves & Contingency</td>
-                <td>No Lockup</td>
-                <td>No Lockup</td>
-                <td>7%</td>
-                <td>350.000.000</td>
-              </tr>
-              <tr class="dist-token total">
+              <tr class="allocation-total">
                   <td>
-                      <div>
+                      <div class="total">
                           <div>Total</div>
-                          <div>
+                          <div class="amount">
                             <div>100%</div>
                             <div>5.000.000.000</div>
                           </div>
@@ -396,11 +360,11 @@
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
-                <h5>Founder & Co-CEO</h5>
+                <h5>Founder</h5>
                 <h4>Dallen Kim</h4>
                 <ul>
                   <li>Co-Founder & COO of Neoplea</li>
-                  <li>(Developed “Dungeon & Fighter”, the highest grossing game of all time)</li>
+                  <li>Developed (“Dungeon & Fighter”, the highest grossing game of all time)</li>
                   <li>Working in Neople from beginning until exit</li>
                   <li>Investor & Advisor, Pulse9 - Company that develops the first global Virtual Idol "ETERNITY"</li>
                   <li>22+ years of experience in StartUp / IT</li>
@@ -412,11 +376,64 @@
               </div>
             </div>
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="top-card"></div>
+                <div class="body-card">
+                  <h5>Co-CEO & CTO</h5>
+                  <h4>Agust Tampubolon</h4>
+                  <ul>
+                    <li>Cashtree Web 2.0 Business (mobile advertising platform)</li>
+                    <li>Software Architecture & Senior Engineer</li>
+                    <li>Front End Developer Asst. Manager AXA Services Indonesia</li>
+                    <li>SCRUM Certified</li>
+                    <li>B.S in Information System</li>
+                    <li>10+ years of experience in IT Industry</li>
+                  </ul>
+                </div>
+                <div class="elips absolute">
+                  <img src="{{asset('images/agust.webp')}}" alt="">
+                </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="top-card"></div>
+                <div class="body-card">
+                  <h5>Co-CEO & CTO</h5>
+                  <h4>Alexander Markl</h4>
+                  <ul>
+                    <li>Leading Web3 transition of Cashtree across all verticals (business model, product, strategy</li>
+                    <li>Current co-founder, CEO of Sun Labs, Digital asset management solution provider</li>
+                    <li>Prev. Co-Founder, CIO of SW Capital; crypto quant trading firm ($50m AUM)</li>
+                    <li>12 years experience in digital product engineering, 6 years in quantitative digital asset trading</li>
+                    <li>Masters of sciences in computer science, LMU Munich</li>
+                  </ul>
+                </div>
+                <div class="elips absolute">
+                  <img src="{{asset('images/markl.webp')}}" alt="">
+                </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="top-card"></div>
+                <div class="body-card">
+                  <h5>CSO</h5>
+                  <h4>Jenny</h4>
+                  <ul>
+                    <li>Current co-Founder, CFO of Sun Labs, Digital asset management solution provider</li>
+                    <li>Prev. Co-founder of crypto quant trading firm SW Capital, overseeing quantitative strategy research</li>
+                    <li>6 years experience in digital asset trading</li>
+                    <li>Masters of sciences in economics, LMU Munich</li>
+                    <li>Expert in quantitative analysis, econometrics, data science</li>
+                  </ul>
+                </div>
+                <div class="elips absolute">
+                  <img src="{{asset('images/jenny.webp')}}" alt="">
+                </div>
+            </div>
+            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>CSO</h5>
                 <h4>Bonifacio</h4>
                 <ul>
+                   <li>Cashtree Token Ecosystem Development and Merchant Partnerships</li>
                   <li>
                       <div>
                         <p>PT. Cashtree For Indonesia</p>
@@ -438,32 +455,34 @@
               </div>
             </div>
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-              <div class="top-card"></div>
-              <div class="body-card">
-                <h5>Co-CEO & CTO</h5>
-                <h4>Agust Tampubolon</h4>
-                <ul>
-                  <li>Software Architecture & Senior Engineer</li>
-                  <li>Front End Developer Asst. Manager AXA Services Indonesia</li>
-                  <li>SCRUM Certified</li>
-                  <li>B.S in Information System</li>
-                  <li>10+ years of experience in IT Industry</li>
-                </ul>
+                <div class="top-card"></div>
+                <div class="body-card">
+                  <h5>CMO</h5>
+                  <h4>William Purdy</h4>
+                  <ul>
+                    <li>Head of Growth at Sun Labs AG</li>
+                    <li>Social Media and Digital Marketing Specialist at Dayton & Sydney Wealth Strategies</li>
+                    <li>Previously FINRA licensed Registered Representative (Series 7 & 63)</li>
+                    <li>Bachelor of Business Administration at Baruch College</li>
+                    <li>10+ years of experience in traditional finance and digital asset markets</li>
+                  </ul>
+                </div>
+                <div class="elips absolute">
+                  <img src="{{asset('images/robin.webp')}}" alt="">
+                </div>
               </div>
-              <div class="elips absolute">
-                <img src="{{asset('images/agust.webp')}}" alt="">
-              </div>
-            </div>
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
-                <h5>Co-Founder & CPO</h5>
+                <h5>COO</h5>
                 <h4>Robin Jang</h4>
                 <ul>
-                  <li>CoinOne Indonesia COO</li>
-                  <li>Publishing PM for Perfect World</li>
-                  <li>Bachelor's Degree in UIBE, China</li>
-                  <li>14+ years of experience in IT Industry</li>  
+                    <li>Operational policy management, Fraud Management</li>
+                    <li>CoinOne Indonesia COO</li>
+                    <li>Vexanium Co-Founder & COO</li>
+                    <li>Publishing PM for Perfect World</li>
+                    <li>Bachelor's Degree in UIBE, China</li>
+                    <li>14+ years of experience in IT Industry</li>  
                 </ul>
               </div>
               <div class="elips absolute">
@@ -542,21 +561,6 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
-                <h4>Alexander Markl</h4>
-                <ul>
-                  <li>Current co-founder, CEO of Sun Labs, Digital asset management solution provider</li>
-                  <li>Prev. Co-Founder, CIO of SW Capital; crypto quant trading firm ($50m AUM)</li>
-                  <li>12 years experience in digital product engineering, 6 years in quantitative digital asset trading</li>
-                </ul>
-              </div>
-              <div class="elips absolute">
-                <img src="{{asset('images/markl.webp')}}" alt="">
-              </div>
-            </div>
-            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-              <div class="top-card"></div>
-              <div class="body-card">
-                <h5>Advisor</h5>
                 <h4>Keebeom Kim</h4>
                 <ul>
                   <li>Current CTO of Kakao Entertainment, CEO of Supercomix</li>
@@ -568,22 +572,7 @@
                 <img src="{{asset('images/kebeeom.webp')}}" alt="">
               </div>
             </div>
-            <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-              <div class="top-card"></div>
-              <div class="body-card">
-                <h5>Advisor</h5>
-                <h4>Jenny</h4>
-                <ul>
-                  <li>Current co-Founder, CFO of Sun Labs, Digital asset management solution provider</li>
-                  <li>Prev. Co-founder of crypto quant trading firm SW Capital, overseeing quantitative strategy research</li>
-                  <li>6 years experience in digital asset trading</li>
-                  <li>Expert in quantitative analysis, econometrics, data science</li>
-                </ul>
-              </div>
-              <div class="elips absolute">
-                <img src="{{asset('images/jenny.webp')}}" alt="">
-              </div>
-            </div>
+            
             <div class="ctt-card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
               <div class="top-card"></div>
               <div class="body-card">
@@ -716,8 +705,7 @@
                   <li>Founder & CEO Komunitas (IDO Platform)</li>
                   <li>Serial entrepreneur, investor, and advisor</li>
                   <li>Polygon Advocates for Indonesia Region</li>
-                  <li>Highly analytical skill, effective communicator, and serious amount of business acumen. His strength is at Business
-                    Development to expansion and building connections.</li>
+                  <li>Highly analytical skill, effective communicator, and serious amount of business acumen. His strength is at Business Development to expansion and building connections.</li>
                 </ul>
               </div>
               <div class="elips absolute">
