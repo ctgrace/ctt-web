@@ -4988,15 +4988,16 @@ footer .footer-content ul li img {
     flex-direction: column;
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table {
+    width: 100%;
     order: 1;
-    margin-top: -150px;
-    padding: 160px 30px 45px !important;
+    padding: 20px;
     flex-direction: row !important;
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table ul {
     width: 50%;
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table ul li {
+    width: 100%;
     height: 25px;
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table ul li p {
@@ -5005,8 +5006,10 @@ footer .footer-content ul li img {
     word-break: break-word;
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
-    width: 22px !important;
-    height: 16px !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    margin-right: 10px;
   }
   .container-fluid #scn-token .container-section .pie-chart img.absolute {
     position: relative;
@@ -5487,10 +5490,6 @@ footer .footer-content ul li img {
   }
   .container-fluid #scn-token .container-section .pie-chart .token-table ul.mright-60 {
     margin-right: 0 !important;
-  }
-  .container-fluid #scn-token .container-section .pie-chart .token-table ul li div {
-    width: 28px;
-    height: 18px;
   }
   .container-fluid #scn-token .container-section .pie-chart img.absolute {
     width: 400px;

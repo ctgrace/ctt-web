@@ -16,12 +16,12 @@
       gtag('config', 'G-BVHKF2V9VT');
     </script>
     <link rel="icon" href="{{url('favicon.jpg')}}">
-    <link rel="stylesheet" href="{{mix('css/app.css')}}?v=2">
+    <link rel="stylesheet" href="{{mix('css/app.css')}}?v=3">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Nunito:wght@300;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css/>
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css/">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css/">
   </head>
 
   <body>

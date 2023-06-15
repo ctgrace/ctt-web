@@ -240,13 +240,14 @@
                     display: flex;
                     flex-direction: column;
                     .token-table {
+                        width: 100%;
                         order: 1;
-                        margin-top: -150px;
-                        padding: 160px 30px 45px!important;
+                        padding: 20px;
                         flex-direction: row!important;
                         ul{
                             width: 50%;
                             li{
+                                width: 100%;
                                 height: 25px;
                                 p{
                                     width: 100px;
@@ -254,8 +255,10 @@
                                     word-break: break-word;
                                 }
                                 div{
-                                    width: 22px!important;
-                                    height: 16px!important;
+                                    width: 20px;
+                                    height: 20px;
+                                    border-radius: 15px;
+                                    margin-right: 10px
                                 }
                             }
                         }
@@ -810,12 +813,6 @@
                         ul{
                             &.mright-60{
                                 margin-right: 0!important;
-                            }
-                            li{
-                                div{
-                                    width: 28px;
-                                    height: 18px;
-                                }
                             }
                         }
                     }
