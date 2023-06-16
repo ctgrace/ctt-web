@@ -431,7 +431,7 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>CSO</h5>
-                <h4>Bonifacio</h4>
+                <h4>Bonifacio Renanda</h4>
                 <ul>
                    <li>Cashtree Token Ecosystem Development and Merchant Partnerships</li>
                   <li>
@@ -493,7 +493,7 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Head Designer</h5>
-                <h4>Ridho</h4>
+                <h4>Muhamad Aminuddin Ridho</h4>
                 <ul>
                   <li>Graphic Designer with 12+ years of experience in design and creative industries</li>
                   <li>Hakuhodo Indonesia Advertising Agency</li>
@@ -614,7 +614,7 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
-                <h4>Tammy</h4>
+                <h4>Tammy Ahn</h4>
                 <ul>
                   <li>20 years experience in the finance and technology sectors.</li>
                   <li>Investment strategist - Citibank</li>
@@ -666,7 +666,7 @@
               <div class="top-card"></div>
               <div class="body-card">
                 <h5>Advisor</h5>
-                <h4>Balqis</h4>
+                <h4>Farah Ashila Balqis</h4>
                 <ul>
                   <li>B.A Humanities in Korean Studies</li>
                   <li>ASEAN International Mobility Scholarship Awardee</li>
